@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="" content="noindex,nofollow">
+    <title>Fillru | Личный кабинет</title>
+    <link rel="canonical" href="" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- //
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head>
+  <style type="text/css">
+    .dnd {display: none;}
+    .dnb {display: block;}
+    .dni {display: inline;}
+    .dnib {display: inline-block;}
+    table thead .bold {font-weight: bold;}
+    .bold {font-weight: bold;}
+    .fillru {background-color: #000; }
+    .mt10 {margin-top: 10px;}
+    .modal-body span {font-size: 14px; color: #000; text-transform: uppercase;}
+    .sub-set-wrap {margin: 9px 2px 0;}
+  </style>
+  <body class="skin-default-dark fixed-layout">
+  	<header class="topbar ">
+        <nav class="navbar top-navbar navbar-expand-md navbar-light">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/logo-white.svg" alt="homepage" style="width: 92px;" />
+                </a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav my-lg-0 mr-2">
+                    <li class="nav-item dropdown">
+                        
+                        <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="usr-name">Моисеева Г.Н</span> &nbsp;<i class="fa fa-sign-out"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  	<!-- 
+        Preloader, и вообще нжуно продумать систему ленивых загрузок
+    -->
+<span style="opacity: 0; max-height: 0.1px;">&nbsp;</span>
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row page-titles">
+                <div class="col-md-12 align-self-center welcome-desc">
+                    <h5 class="card-title"><b>СИСТЕМА МОНИТОРИНГА ОСТАТКОВ И ОБРАБОТКИ ЗАКАЗОВ</b></h5>
+                <!--                                         
+                    <h6 class="card-subtitle text-uppercase dark">Отобразить настройки</h6> 
+                -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <!-- 
+                            Если нажали на кнопку отображения настроек 
+                        -->
+                        <div class="card-body">
+                            <nav>
+                              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link active" id="nav-options-tab" data-bs-toggle="tab" data-bs-target="#nav-options" type="button" role="tab" aria-controls="nav-options" aria-selected="true"><i class="fa fa-cog"></i> </button>
+                                <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Общие Остатки</button>
+                                <button class="nav-link" id="nav-fillru-tab" data-bs-toggle="tab" data-bs-target="#nav-fillru" type="button" role="tab" aria-controls="nav-fillru" aria-selected="false">FILLRU</button>
+                                <button class="nav-link" id="nav-ozon-tab" data-bs-toggle="tab" data-bs-target="#nav-ozon" type="button" role="tab" aria-controls="nav-ozon" aria-selected="false">OZON</button>
+                                <button class="nav-link" id="nav-yandex-tab" data-bs-toggle="tab" data-bs-target="#nav-yandex" type="button" role="tab" aria-controls="nav-yandex" aria-selected="false">Яндекс Маркет</button>
+                                <button class="nav-link" id="nav-wb-tab" data-bs-toggle="tab" data-bs-target="#nav-wb" type="button" role="tab" aria-controls="nav-wb" aria-selected="false">WildBerries</button>
+                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Отгрузки FBS</button>
+                              </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <!-- 
+                                    Option's Tab
+                                -->
+                                <div class="tab-pane fade show active" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab"><br/>
+                                    <h4>Общие настройки и Управление товарами</h4>
+                                    Здесь Вы можете управлять товаром (ипортировать, экспортировать, синхронизировать данные, изменять отображаемые сведения и многое другое.<br/>
+                                    Для начала Вам нужно предоставить перечень товара, Вы можете сделать это ипортировав Excel Файл, содержащий в себе: Наименование продукта, EAN13 штрихкод, его описание, Дополнительные сведения (Размеры, цвета, цена и пр.).<br/><br/>
+                                    <span style="color: #aaa">Скачать:</span> <a href="#">Образец_файла_для_импорта.xls</a><br/>
+                                    Ниже приведены товары/услуги уже имеющиеся в нашей базе данных, а так-же кликнув по наименованию Вы сможете сопоставить имена и штрихкоды.
+                                    <!-- <span class="float-start text-uppercase"><a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#productSync">Синхронизации товара</a></span> -->
+                                    <div class="table-responsive mt10">
+                                        <table class="table table-hover">
+                                            <!-- 
+                                                Нужно добавить опции, чтобы в зависимости от чекбоксов - отображались соответствующие данные (маски) 
+                                            -->
+                                            <thead class="table-dark">
+                                                <tr class="bold">
+                                                    <th class="prodnumb bold text-center" width="1"><b>#</b></th>
+                                                    <th class="prodname bold"><b>НАИМЕНОВАНИЕ </b></th>
+                                                    <th class="prodcode bold sm-hide" width="10">ШТРИХКОД</th>
+                                                    <th class="fillru bold" width="1"><b>FILLRU</b></th>
+                                                    <th class="ozon bold" width="1"><b>OZON</b></th>
+                                                    <th class="wb bold" width="1"><b>WB</b></th>
+                                                    <th class="sber bold dnd" width="1"><b>СБЕР</b></th>
+                                                    <th class="avito bold dnd" width="1"><b>AVITO</b></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="prodnumb text-center">1</td>
+                                                    <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productESync">Несмываемый бальзам для поврежденных волос Masil 9 Protein Perfume Silk Balm 180 Зеленый</a><span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></span></td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></td>
+                                                    <td class="fillru text-success">✓</td>
+                                                    <td class="ozon text-success">✓</td>
+                                                    <td class="wb text-success"><span>✓</span></td>
+                                                    <td class="sber dnd"><span>-</span></td>
+                                                    <td class="avito dnd"><span>-</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="prodnumb text-center">2</td>
+                                                    <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productESync">Несмываемый протеиновый бальзам для волос Masil 9 Protein Perfume Silk Balm Sweet Love 180 Красный</a><span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></span></td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></td>
+                                                    <td class="fillru text-success">✓</td>
+                                                    <td class="ozon text-success">✓</td>
+                                                    <td class="wb text-danger"><span>-</span></td>
+                                                    <td class="sber dnd"><span>-</span></td>
+                                                    <td class="avito dnd"><span>-</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- 
+                                    Quantity's Tab 
+                                -->
+                                <div class="tab-pane fade show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><br/>
+                                <h4>Мониторинг остатка товаров по всем направлениям</h4>  
+                                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">Настройка фильтров и отображения</button>
+                                  <div class="collapse" id="collapseFilters"><br/>
+                                    <div class="card card-body">
+                                      Управление отображаемыми элементами:<br/> <br/> 
+                                      <div class="row">
+                                        <div class="wrapper">
+
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">FILLRU &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#fillruSettings"></a></label>
+                                          </div>
+
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked">OZON &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#ozonSettings"></a></label>
+                                          </div>
+
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked">WB &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#wbSettings"></a></label>
+                                          </div>
+
+                                          <div class="form-check form-switch"> <input class="form-check-input"
+                                          type="checkbox" id="flexSwitchCheckDefault"> <label class="form-check-label"
+                                          for="flexSwitchCheckDefault">Яндекс Маркет &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#yandexSettings"></a></label> </div>
+
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                                            <label class="form-check-label" for="flexSwitchCheckDisabled">СберМегаМаркет &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#sberSettings"></a></label>
+                                          </div>
+
+                                          <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                                            <label class="form-check-label" for="flexSwitchCheckDisabled">Авито &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#avitoSettings"></a></label>
+                                          </div>
+
+                                        </div>                                          
+                                      </div>
+                                    </div>
+                                  </div>
+                                <!-- 
+                                    Echo Table Data For Quantity Tab
+                                -->
+                                <div class="table-responsive mt10">
+                                    <table class="table table-hover">
+                                        <!-- 
+                                            Нужно добавить опции, чтобы в зависимости от чекбоксов - отображать нужные данные 
+                                        -->
+                                        <thead class="table-dark">
+                                            <tr class="bold">
+                                                <th class="prodnumb bold text-center" width="1"><b>#</b></th>
+                                                <th class="prodname bold orange"><b>НАИМЕНОВАНИЕ </b></th>
+                                                <th class="prodcode bold sm-hide" width="10"><b>ШТРИХКОД </b></th>
+                                                <th class="fillru bold" width="1"><b>FILLRU</b></th>
+                                                <th class="ozon bold" width="1"><b>OZON</b></th>
+                                                <th class="wb bold" width="1"><b>WB</b></th>
+                                                <th class="sber bold dnd" width="1"><b>СБЕР</b></th>
+                                                <th class="avito bold dnd" width="1"><b>AVITO</b></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="prodnumb text-center">1</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Несмываемый протеиновый бальзам для поврежденных волос Masil 9 Protein Perfume Silk Balm 180 Зеленый</a>
+                                                    <span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></span>
+                                                    <br/><i class="fa fa-globe" aria-hidden="true"></i>
+
+                                                    <a href="https://www.ozon.ru/product/masil-nesmyvaemyy-parfyumirovannyy-balzam-dlya-volos-s-proteinami-9-protein-perfume-silk-balm-180-ml-697866279" target="_blank">OZON </a> |
+
+                                                    <a href="https://www.wildberries.ru/catalog/169074006/detail.aspx" target="_blank"> WB </a> |
+
+                                                    <a href="https://market.yandex.ru/product--masil-balzam-9-protein-perfume-silk-balm-nesmyvaemyi-dlia-povrezhdennykh-volos/894485280?uniqueId=915906&sku=101255270874&wprid=1704682454256582-12993299356636219337-balancer-l7leveler-kubr-yp-sas-55-BAL-2395&utm_source_service=web&clid=703&src_pof=703&icookie=rR3s78Crxnlw%2FuMsfox%2FrNMPbEMuDT8ARqWj94UlTpJTuSIzvgDSn6JTYiwzMZH9ms35GiPj6JLGnbtz9Sl655Noga4%3D&baobab_event_id=lr4bwd694l" target="_blank"> Яндекс </a>
+
+                                                </td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></td>
+                                                <td class="fillru text-success">417</td>
+                                                <td class="ozon text-danger">13</td>
+                                                <td class="wb text-primary"><span>32</span></td>
+                                                <td class="sber dnd"><span>-</span></td>
+                                                <td class="avito dnd"><span>-</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prodnumb text-center">2</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Несмываемый протеиновый бальзам для волос Masil 9 Protein Perfume Silk Balm Sweet Love 180 Красный</a>
+                                                    <span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></span>
+                                                    <br/><i class="fa fa-globe" aria-hidden="true"></i>
+                                                    <a href="https://www.ozon.ru/product/masil-nesmyvaemyy-balzam-dlya-povrezhdennyh-volos-masil-9-protein-perfume-silk-balm-sweet-love-180ml-1240406771/" target="_blank">OZON </a> |
+                                                    <a href="https://www.wildberries.ru/catalog/159199049/detail.aspx" target="_blank"> WB </a> |
+                                                    <a href="https://market.yandex.ru/product--masil-balzam-9-protein-perfume-silk-balm-nesmyvaemyi-dlia-povrezhdennykh-volos/894485280?sku=101981913595&wprid=1704682579523716-11778768620254191853-balancer-l7leveler-kubr-yp-sas-55-BAL-8987&utm_source_service=web&clid=703&src_pof=703&icookie=rR3s78Crxnlw%2FuMsfox%2FrNMPbEMuDT8ARqWj94UlTpJTuSIzvgDSn6JTYiwzMZH9ms35GiPj6JLGnbtz9Sl655Noga4%3D&baobab_event_id=lr4bz4nk87" target="_blank"> Яндекс </a>
+                                                </td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></td>
+                                                <td class="fillru text-success">156</td>
+                                                <td class="ozon">-</td>
+                                                <td class="wb"><span>-</span></td>
+                                                <td class="sber dnd"><span>-</span></td>
+                                                <td class="avito dnd"><span>-</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                              <!-- QM'Tab end -->
+                              <div class="tab-pane fade" id="nav-fillru" role="tabpanel" aria-labelledby="nav-fillru-tab"><br/><h4>Fillru <a class="fa fa-edit" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fillruSettings"></a></h4></div>
+                              <div class="tab-pane fade" id="nav-ozon" role="tabpanel" aria-labelledby="nav-ozon-tab"><br/><h4>OZON</h4> TAB</div>
+                              <div class="tab-pane fade" id="nav-yandex" role="tabpanel" aria-labelledby="nav-yandex-tab"><br/><h4>Яндекс Маркет</h4>  TAB</div>
+                              <div class="tab-pane fade" id="nav-wb" role="tabpanel" aria-labelledby="nav-wb-tab"><br/><h4>WildBerries</h4> TAB</div>
+                              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><br/><h4>Отгрузки FBS</h4> <p>Доступно с опцией: <b>Сам Себе Fulfillment</b> - <a href="#">Подключить</a></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+        Mini SideBar'у можно изменить "чувствительность отображения" 
+    -->
+    <aside class="left-sidebar">
+        <div class="d-flex no-block nav-text-box align-items-center">
+            <span><img src="../assets/images/favicon.png" alt="Fillru Dashboard" style="width: 40px"></span>
+            <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i class="ti-menu" style="color: #aaa;"></i></a>
+        </div>
+        <div class="scroll-sidebar">
+            <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Личный кабинет</span></a></li>
+                    <li> <a class="waves-effect waves-dark" href="profile-page.html" aria-expanded="false"><i class="fa fa-user-circle-o"></i><span class="hide-menu">Профиль</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!-- 
+        Footer - just footer ... 
+    -->
+    <footer class="footer">
+        Все права сохранены и защищены © <a href="#">«Fillru»</a>, Москва, 2023
+    </footer>
+    <!-- 
+        Modal Settings Frames 
+    -->
+    <!--
+        Main Settings Frame
+    -->
+    <div class="modal fade" id="mainSettings" tabindex="-1" aria-labelledby="mainSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="mainSettings">Общие настройки</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Из какого источника отображать наименование товара?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="oznname">OZON - Наименование</option>
+              <option value="oznart">OZON - Артикул</option>
+              <option value="yaname">Яндекс - Наименование</option>
+              <option value="yaart">Яндекс - Артикул</option>
+              <option value="wbname">WildBerries - Наименование</option>
+              <option value="wbart">WildBerries - Артикул</option>
+              <option value="nothingname">Не отображать</option>
+            </select>
+            <br/>
+            <span>Какой код отображать по умолчанию?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="ean13"selected>EAN13 (По умолчанию)</option>
+              <option value="oznbar">OZON - OZN1234567890</option>
+              <option value="oznsku">OZON - SKU </option>
+              <option value="yabar">Яндекс - YA1234567890</option>
+              <option value="yasku">Яндекс - SKU</option>
+              <option value="wbbar">WildBerries - WB1234567890</option>
+              <option value="wbsku">WildBerries - SKU</option>
+              <option value="nothingbar">Не отображать</option>
+            </select>
+            <br/>
+            <span>Каким образом сортировать остатки?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="btm"selected>От большего к меньшему (По умолчанию)</option>
+              <option value="mtb">От меньшего к большему </option>
+              <option value="az">По наименованию А-я</option>
+              <option value="za">По наименованию Я-а</option>
+              <option value="price">По убыванию стоимости</option>
+              <option value="price">По возрастанию стоимости</option>
+            </select>
+            <br/>
+            <span>Стиль отображения заголовков</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="clmm"selected>Цветные иконки (По умолчанию)</option>
+              <option value="blmm">ЧБ иконки</option>
+              <option value="fnmm">Полное название</option>
+              <option value="snmm">Сокращенное название</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>                
+    <!-- 
+        Fillru Settings Frame 
+    -->
+    <div class="modal fade" id="fillruSettings" tabindex="-1" aria-labelledby="fillruSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="fillruSettings">Настройки отображения</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Название склада</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="fbs">FBS</option>
+              <option value="warehousename">WAREHOUSE</option>
+              <option value="clientname">Указать своё</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        OZON Settings Frame 
+    -->
+    <div class="modal fade" id="ozonSettings" tabindex="-1" aria-labelledby="ozonSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="ozonSettings">Настройки OZON</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>API ключ</span>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ OZON Seller'a </label>
+              <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="2" placeholder="OZON Seller API ключ"></textarea>
+              <br/>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOZONkeys" aria-expanded="false" aria-controls="collapseOZONkeys">Как получить API ключ?</button>
+                <div class="collapse" id="collapseOZONkeys"><br/>
+                  <div class="card card-body">
+                    Перейдите на сайт OZON и войдите в свой аккаунт. Откройте меню профиля, нажав на свое имя пользователя в правом верхнем углу. В выпадающем меню выберите «Мои приложения». На странице «Мои приложения» найдите раздел «API Keys» и нажмите на кнопку «Создать новый ключ». <pre><br/>(от 8 сентября 2023 года)</pre>
+                    <a href="https://www.youtube.com/watch?v=F4-YY3cVwLc" target="_blank">Посмотреть видеоинструкцию</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        WildBerriess Settings Frame 
+    -->
+    <div class="modal fade" id="wbSettings" tabindex="-1" aria-labelledby="wbSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="wbSettings">Настройки WildBerries</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>API ключ</span>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ WB Seller'a </label>
+              <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="2" placeholder="WB Seller API ключ"></textarea>
+              <br/>
+              <div class="row">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsWBkeys" aria-expanded="false" aria-controls="collapsWBkeys">Как получить API ключ?</button>
+                <div class="collapse" id="collapsWBkeys"><br/>
+                  <div class="card card-body">
+                      1) Зайдите в ваш Личный Кабинет на портале Поставщиков Wildberries.<br/>
+                      2) Пройдите в раздел Настройки (наверху справа, где указан поставщик), затем выберите раздел «Доступ к новому API» ...<br/>
+                      3) Нажмите «создать новый ключ». <pre><br/>(Видео-метод не проверялся)</pre>
+                    <a href="https://www.youtube.com/watch?v=sKN3iV9bXFk" target="_blank">Посмотреть видеоинструкцию</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        Yandex Settings Frame 
+    -->
+    <div class="modal fade" id="yandexSettings" tabindex="-1" aria-labelledby="yandexSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="yandexSettings">Настройки Яндекс Партнера</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+            <div class="modal-body">
+                <span>API ключ</span>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ Yandex Партнерa </label>
+                    <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="1" placeholder="Yandex Partner API ключ"></textarea><br/>
+                    <div class="row">
+                      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsWBkeys" aria-expanded="false" aria-controls="collapsWBkeys">Как получить API ключ?</button>
+                        <div class="collapse" id="collapsWBkeys"><br/>
+                            <div class="card card-body">
+                            1) Перейдите на страницу Кабинета разработчика.<br/>
+                            2) Нажмите на кнопку Получить ключ и заполните поля: Имя ключа — имя, которое отображается на странице Ваши API-ключи. Его будете видеть только вы. ...<br/>
+                            3) Согласитесь с условиями использования API Поиска для сайта и нажмите Отправить.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-warning">Сохранить изменения</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        Product ID=productESync Modal Frame 
+    -->
+    <div class="modal fade" id="productESync" tabindex="-1" aria-labelledby="productESync" aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="productESync">Сопостовление данных о продукте</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <!-- 
+                    "SKU" ИНН:EAN13
+                -->
+                <h5>Fillru SKU (ИНН:EAN13) :</h5>
+                    <div class="input-group">
+                        <span class="input-group-text">622400183009<span>:</span></span>
+                        <input class="form-control" id="ean13code" aria-label="With textarea" rows="1" maxlength="13">
+                    </div>
+                    <button class="btn btn-dark mt10"><i class="fa fa-lock"></i> <i class="fa fa-copy"></i></button>
+                    <button class="btn btn-dark mt10"><i class="fa fa-unlock"></i> <i class="fa fa-copy"></i></button>
+
+                </div>
+                <!-- 
+                    // sku
+                    еще один костыль заменть textarea на input - для того чтобы пофиксить возможность изменения размера поля ввода
+                -->
+                <script type="text/javascript">
+                    // костылим text area по id=ean13codes
+                    ean13code.addEventListener('keydown', () => {
+                        ean13code.value = ean13code.value.replace(/\D/g, '')
+                    })
+                    ean13code.addEventListener('keyup', () => {
+                        ean13code.value = ean13code.value.replace(/\D/g, '')
+                    })
+                </script>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h5>Наименование продукта в системе :</h5>
+                     <textarea class="form-control" id="whprodname" aria-label="With textarea" rows="3" maxlength="128" placeholder="Наименование продукта ( <= 128 символов )"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> OZON SKU</h5>
+                    <input class="form-control" id="oznsku" aria-label="With textarea" maxlength="24">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> WB SKU</h5>
+                    <input class="form-control" id="wbsku" aria-label="With textarea" maxlength="24">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> Яндекс SKU</h5>
+                    <input class="form-control" id="yasku" aria-label="With textarea" maxlength="24">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> OZON ШК</h5>
+                    <div class="input-group">
+                        <span class="input-group-text">OZN</span>
+                        <input class="form-control" id="ozncode" aria-label="With textarea" maxlength="9">
+                    </div>
+                    <script type="text/javascript">
+                        // костылим text area по id=ozncode
+                        ozncode.addEventListener('keydown', () => {
+                            ozncode.value = ozncode.value.replace(/\D/g, '')
+                        })
+                        ozncode.addEventListener('keyup', () => {
+                            ozncode.value = ozncode.value.replace(/\D/g, '')
+                        })
+                    </script>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> WB ШК</h5>
+                    <input class="form-control" id="wbcode" aria-label="With textarea" maxlength="13">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> Яндекс ШК</h5>
+                        <input class="form-control" id="yacode" aria-label="With textarea" maxlength="13">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> OZON ИМЯ</h5>
+                        <textarea class="form-control" id="oznname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> WB ИМЯ</h5>
+                    <textarea class="form-control" id="wbname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> Яндекс ИМЯ</h5>
+                        <textarea class="form-control" id="yaname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> OZON URL</h5>
+                        <input class="form-control" id="oznname" aria-label="With textarea" rows="1" maxlength="256">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> WB URL</h5>
+                    <input class="form-control" id="wbname" aria-label="With textarea" rows="1" maxlength="256">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> Яндекс URL</h5>
+                        <input class="form-control" id="yaname" aria-label="With textarea" rows="1" maxlength="256">
+                </div>
+            </div>
+           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-upload" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-download" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>

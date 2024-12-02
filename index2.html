@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="" content="noindex,nofollow">
+    <title>Fillru | Личный кабинет</title>
+    <link rel="canonical" href="" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- //
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head>
+  <style type="text/css">
+    .dnd {display: none;}
+    .dnb {display: block;}
+    .dni {display: inline;}
+    .dnib {display: inline-block;}
+    table thead .bold {font-weight: bold;}
+    .bold {font-weight: bold;}
+    .fillru {background-color: #000; }
+    .mt10 {margin-top: 10px;}
+    .modal-body span {font-size: 14px; color: #000; text-transform: uppercase;}
+    .sub-set-wrap {margin: 9px 2px 0;}
+  </style>
+  <body class="skin-default-dark fixed-layout">
+  	<header class="topbar ">
+        <nav class="navbar top-navbar navbar-expand-md navbar-light">
+            <!-- Logo -- .navbar-header добавить отсуп при включенном SideBar-->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/logo-white.svg" alt="homepage" style="width: 92px;" />
+                </a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav my-lg-0 mr-2">
+                    <li class="nav-item dropdown">
+                        Моисеева Г.Н
+                        <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-sign-out"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+  	<!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Загрузка личного кабинета | Fillru</p>
+        </div>
+    </div>
+        <div class="page-wrapper">
+            <div class="container-fluid">
+                <div class="row page-titles">
+                    <div class="col-md-12 align-self-center welcome-desc">
+                        <h5 class="card-title"><b>МОНИТОРИНГ ОСТАТКОВ И ЗАКАЗОВ</b></h5>
+<!--                         <h6 class="card-subtitle text-uppercase dark">Отобразить настройки</h6> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <!-- Если нажали на кнопку отображения настроек -->
+                            <div class="card-body">
+                                <nav>
+                                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link" id="nav-options-tab" data-bs-toggle="tab" data-bs-target="#nav-options" type="button" role="tab" aria-controls="nav-options" aria-selected="true"><i class="fa fa-cog"></i> </button>
+                                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Общие Остатки</button>
+                                    <button class="nav-link" id="nav-fillru-tab" data-bs-toggle="tab" data-bs-target="#nav-fillru" type="button" role="tab" aria-controls="nav-fillru" aria-selected="false">FILLRU</button>
+                                    <button class="nav-link" id="nav-ozon-tab" data-bs-toggle="tab" data-bs-target="#nav-ozon" type="button" role="tab" aria-controls="nav-ozon" aria-selected="false">OZON</button>
+                                    <button class="nav-link" id="nav-yandex-tab" data-bs-toggle="tab" data-bs-target="#nav-yandex" type="button" role="tab" aria-controls="nav-yandex" aria-selected="false">Яндекс Маркет</button>
+                                    <button class="nav-link" id="nav-wildberries-tab" data-bs-toggle="tab" data-bs-target="#nav-wildberries" type="button" role="tab" aria-controls="nav-wildberries" aria-selected="false">WildBerries</button>
+                                    <button class="nav-link" id="nav-fbsdata-tab" data-bs-toggle="tab" data-bs-target="#nav-fbsdata" type="button" role="tab" aria-controls="nav-fbsdata" aria-selected="false">Отгрузки FBS</button>
+                                  </div>
+                                </nav>
+                                <div class="tab-content" id="nav-tabContent">
+                                  <div class="tab-pane fade" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab"><br/>Страница с настройками</div>
+                                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><br/>Мониторинг остатков по складам</div>
+                                  <div class="tab-pane fade" id="nav-fillru" role="tabpanel" aria-labelledby="nav-fillru-tab"><br/>Fillru TAB</div>
+                                  <div class="tab-pane fade" id="nav-ozon" role="tabpanel" aria-labelledby="nav-ozon-tab"><br/>OZON TAB</div>
+                                  <div class="tab-pane fade" id="nav-yandex" role="tabpanel" aria-labelledby="nav-yandex-tab"><br/>Яндекс Маркет TAB</div>
+                                  <div class="tab-pane fade" id="nav-wildberries" role="tabpanel" aria-labelledby="nav-wildberries-tab"><br/>WildBerries TAB</div>
+                                  <div class="tab-pane fade" id="nav-fbsdata" role="tabpanel" aria-labelledby="nav-fbsdata-tab"><br/>Отгрузки FBS TAB</div>
+                                </div>
+
+
+                                <div class="d-flex">
+                                    <div class="col-md-1">
+                                    <div class="col-md-1"> 
+                                        <div class="form-check form-check-inline sub-set-wrap">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckBox1"> FILLRU &nbsp;<a class="fa fa-edit" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fillruSettings"></a></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-check form-check-inline sub-set-wrap">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckBox1"> OZON &nbsp;<a class="fa fa-edit" href="#"></a></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-check form-check-inline sub-set-wrap">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckBox1"> WB &nbsp;<a class="fa fa-edit" href="#"></a></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-check form-check-inline sub-set-wrap">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckBox1"> СберМ &nbsp;<a class="fa fa-edit" href="#"></a></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <div class="form-check form-check-inline sub-set-wrap">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckBox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckBox1"> AVITO &nbsp;<a class="fa fa-edit" href="#"></a></label>
+                                        </div>
+                                    </div>
+                                        <span class="float-start text-uppercase"><a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#productSync">Синхронизации товара</a></span>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <!-- // Нужно добавить опции, в зависимости от чекбоксов - отображать данные -->
+                                    <thead class="table-dark">
+                                        <tr class="bold">
+                                            <th class="prodnumb bold text-center"><b>#</b></th>
+                                            <th class="prodname bold"><b>НАИМЕНОВАНИЕ </b></th>
+                                            <th class="fillru bold"><b>FILLRU</b></th>
+                                            <th class="ozon bold"><b>OZON</b></th>
+                                            <th class="wb bold"><b>WB</b></th>
+                                            <th class="sber bold"><b>СБЕР</b></th>
+                                            <th class="avito bold dnd"><b>AVITO</b></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="prodnumb text-center">1</td>
+                                            <td class="prodname">Несмываемый бальзам для поврежденных волос Masil 9 Protein Perfume Silk Balm 180 Зеленый</td>
+                                            <td class="fillru text-success">246</td>
+                                            <td class="ozon text-danger">13</td>
+                                            <td class="wb"><span>-</span></td>
+                                            <td class="sber"><span>-</span></td>
+                                            <td class="avito dnd"><span>-</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div><br/>
+            </div>
+        </div>
+        <!-- SideBar Добавить margin-left Mini sidebar'у при включенни -->
+         <aside class="left-sidebar">
+            <div class="d-flex no-block nav-text-box align-items-center">
+                <span><img src="../assets/images/favicon.png" alt="Fillru Dashboard" style="width: 40px"></span>
+                <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i class="ti-menu" style="color: #aaa;"></i></a>
+            </div>
+            <div class="scroll-sidebar">
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Личный кабинет</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="profile-page.html" aria-expanded="false"><i class="fa fa-user-circle-o"></i><span class="hide-menu">Профиль</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+         <!-- footer -->
+        <footer class="footer">
+           Все права сохранены и защищены © <a href="#">«Fillru»</a>, Москва, 2023
+        </footer>
+
+    <!-- Modal Settings Frames -->
+
+    <!-- Main Settings -->
+    <div class="modal fade" id="mainSettings" tabindex="-1" aria-labelledby="mainSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="mainSettings">Общие настройки</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Из какого источника отображать наименование товара?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="oznname">OZON - Наименование</option>
+              <option value="oznart">OZON - Артикул</option>
+              <option value="yaname">Яндекс - Наименование</option>
+              <option value="yaart">Яндекс - Артикул</option>
+              <option value="wbname">WildBerries - Наименование</option>
+              <option value="wbart">WildBerries - Артикул</option>
+              <option value="nothingname">Не отображать</option>
+            </select>
+            <br/>
+            <span>Какой код отображать по умолчанию?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="ean13"selected>EAN13 (По умолчанию)</option>
+              <option value="oznbar">OZON - OZN1234567890</option>
+              <option value="oznsku">OZON - SKU </option>
+              <option value="yabar">Яндекс - YA1234567890</option>
+              <option value="yasku">Яндекс - SKU</option>
+              <option value="wbbar">WildBerries - WB1234567890</option>
+              <option value="wbsku">WildBerries - SKU</option>
+              <option value="nothingbar">Не отображать</option>
+            </select>
+            <br/>
+            <span>Каким образом сортировать остатки?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="btm"selected>От большего к меньшему (По умолчанию)</option>
+              <option value="mtb">От меньшего к большему </option>
+              <option value="az">По наименованию А-я</option>
+              <option value="za">По наименованию Я-а</option>
+              <option value="price">По убыванию стоимости</option>
+              <option value="price">По возрастанию стоимости</option>
+            </select>
+            <br/>
+            <span>Стиль отображения заголовков</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="clmm"selected>Цветные иконки (По умолчанию)</option>
+              <option value="blmm">ЧБ иконки</option>
+              <option value="fnmm">Полное название</option>
+              <option value="snmm">Сокращенное название</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>                
+
+    <!-- Fillru Settings -->
+    <div class="modal fade" id="fillruSettings" tabindex="-1" aria-labelledby="fillruSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="fillruSettings">Настройки отображения столбца Fillru</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Название склада</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="fbs">FBS</option>
+              <option value="warehousename">WAREHOUSE</option>
+              <option value="clientname">Указать своё</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Synchro -->
+    <div class="modal fade" id="productSync" tabindex="-1" aria-labelledby="productSync" aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="productSync">Синхронизация товарарных наименований</p></h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Название склада</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="fbs">FBS</option>
+              <option value="warehousename">WAREHOUSE</option>
+              <option value="clientname">Указать своё</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>

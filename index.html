@@ -1,0 +1,1418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="" content="noindex,nofollow">
+    <title>Fillru | Личный кабинет</title>
+    <link rel="canonical" href="" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <!-- //
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <style type="text/css">
+        .dnd {display: none;}
+        .dnb {display: block;}
+        .dni {display: inline;}
+        .dnib {display: inline-block;}
+        table thead .bold {font-weight: bold;}
+        .bold {font-weight: bold;}
+        .fillru {background-color: #000; }
+        .mt10 {margin-top: 10px;}
+        .mt20 {margin-top: 20px;}
+        .mt30 {margin-top: 30px;}
+        .mt40 {margin-top: 40px;}
+        .modal-body span {font-size: 14px; color: #000; text-transform: uppercase;}
+        .sub-set-wrap {margin: 9px 2px 0;}
+        /* инклюдим сортировку */
+        table.dataTable thead .sorting:after,
+        table.dataTable thead .sorting:before,
+        table.dataTable thead .sorting_asc:after,
+        table.dataTable thead .sorting_asc:before,
+        table.dataTable thead .sorting_asc_disabled:after,
+        table.dataTable thead .sorting_asc_disabled:before,
+        table.dataTable thead .sorting_desc:after,
+        table.dataTable thead .sorting_desc:before,
+        table.dataTable thead .sorting_desc_disabled:after,
+        table.dataTable thead .sorting_desc_disabled:before {
+          bottom: .5em;
+        }
+
+/* Для таблицы*/
+
+:root{--dt-row-selected: 13, 110, 253;--dt-row-selected-text: 255, 255, 255;--dt-row-selected-link: 9, 10, 11;--dt-row-stripe: 0, 0, 0;--dt-row-hover: 0, 0, 0;--dt-column-ordering: 0, 0, 0;--dt-html-background: white}:root.dark{--dt-html-background: rgb(33, 37, 41)}table.dataTable td.dt-control{text-align:center;cursor:pointer}table.dataTable td.dt-control:before{display:inline-block;color:rgba(0, 0, 0, 0.5);content:"▶"}table.dataTable tr.dt-hasChild td.dt-control:before{content:"▼"}html.dark table.dataTable td.dt-control:before{color:rgba(255, 255, 255, 0.5)}html.dark table.dataTable tr.dt-hasChild td.dt-control:before{color:rgba(255, 255, 255, 0.5)}table.dataTable thead>tr>th.sorting,table.dataTable thead>tr>th.sorting_asc,table.dataTable thead>tr>th.sorting_desc,table.dataTable thead>tr>th.sorting_asc_disabled,table.dataTable thead>tr>th.sorting_desc_disabled,table.dataTable thead>tr>td.sorting,table.dataTable thead>tr>td.sorting_asc,table.dataTable thead>tr>td.sorting_desc,table.dataTable thead>tr>td.sorting_asc_disabled,table.dataTable thead>tr>td.sorting_desc_disabled{cursor:pointer;position:relative;padding-right:26px}table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting:after,table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_asc:after,table.dataTable thead>tr>th.sorting_desc:before,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>th.sorting_asc_disabled:after,table.dataTable thead>tr>th.sorting_desc_disabled:before,table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting:before,table.dataTable thead>tr>td.sorting:after,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_asc:after,table.dataTable thead>tr>td.sorting_desc:before,table.dataTable thead>tr>td.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_asc_disabled:after,table.dataTable thead>tr>td.sorting_desc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:after{position:absolute;display:block;opacity:.125;right:10px;line-height:9px;font-size:.8em}table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_desc:before,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>th.sorting_desc_disabled:before,table.dataTable thead>tr>td.sorting:before,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_desc:before,table.dataTable thead>tr>td.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:before{bottom:50%;content:"▲";content:"▲"/""}table.dataTable thead>tr>th.sorting:after,table.dataTable thead>tr>th.sorting_asc:after,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>th.sorting_asc_disabled:after,table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting:after,table.dataTable thead>tr>td.sorting_asc:after,table.dataTable thead>tr>td.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc_disabled:after,table.dataTable thead>tr>td.sorting_desc_disabled:after{top:50%;content:"▼";content:"▼"/""}table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_desc:after,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_desc:after{opacity:.6}table.dataTable thead>tr>th.sorting_desc_disabled:after,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:after,table.dataTable thead>tr>td.sorting_asc_disabled:before{display:none}table.dataTable thead>tr>th:active,table.dataTable thead>tr>td:active{outline:none}div.dataTables_scrollBody>table.dataTable>thead>tr>th:before,div.dataTables_scrollBody>table.dataTable>thead>tr>th:after,div.dataTables_scrollBody>table.dataTable>thead>tr>td:before,div.dataTables_scrollBody>table.dataTable>thead>tr>td:after{display:none}div.dataTables_processing{position:absolute;top:50%;left:50%;width:200px;margin-left:-100px;margin-top:-26px;text-align:center;padding:2px;z-index:10}div.dataTables_processing>div:last-child{position:relative;width:80px;height:15px;margin:1em auto}div.dataTables_processing>div:last-child>div{position:absolute;top:0;width:13px;height:13px;border-radius:50%;background:rgb(13, 110, 253);background:rgb(var(--dt-row-selected));animation-timing-function:cubic-bezier(0, 1, 1, 0)}div.dataTables_processing>div:last-child>div:nth-child(1){left:8px;animation:datatables-loader-1 .6s infinite}div.dataTables_processing>div:last-child>div:nth-child(2){left:8px;animation:datatables-loader-2 .6s infinite}div.dataTables_processing>div:last-child>div:nth-child(3){left:32px;animation:datatables-loader-2 .6s infinite}div.dataTables_processing>div:last-child>div:nth-child(4){left:56px;animation:datatables-loader-3 .6s infinite}@keyframes datatables-loader-1{0%{transform:scale(0)}100%{transform:scale(1)}}@keyframes datatables-loader-3{0%{transform:scale(1)}100%{transform:scale(0)}}@keyframes datatables-loader-2{0%{transform:translate(0, 0)}100%{transform:translate(24px, 0)}}table.dataTable.nowrap th,table.dataTable.nowrap td{white-space:nowrap}table.dataTable th.dt-left,table.dataTable td.dt-left{text-align:left}table.dataTable th.dt-center,table.dataTable td.dt-center,table.dataTable td.dataTables_empty{text-align:center}table.dataTable th.dt-right,table.dataTable td.dt-right{text-align:right}table.dataTable th.dt-justify,table.dataTable td.dt-justify{text-align:justify}table.dataTable th.dt-nowrap,table.dataTable td.dt-nowrap{white-space:nowrap}table.dataTable thead th,table.dataTable thead td,table.dataTable tfoot th,table.dataTable tfoot td{text-align:left}table.dataTable thead th.dt-head-left,table.dataTable thead td.dt-head-left,table.dataTable tfoot th.dt-head-left,table.dataTable tfoot td.dt-head-left{text-align:left}table.dataTable thead th.dt-head-center,table.dataTable thead td.dt-head-center,table.dataTable tfoot th.dt-head-center,table.dataTable tfoot td.dt-head-center{text-align:center}table.dataTable thead th.dt-head-right,table.dataTable thead td.dt-head-right,table.dataTable tfoot th.dt-head-right,table.dataTable tfoot td.dt-head-right{text-align:right}table.dataTable thead th.dt-head-justify,table.dataTable thead td.dt-head-justify,table.dataTable tfoot th.dt-head-justify,table.dataTable tfoot td.dt-head-justify{text-align:justify}table.dataTable thead th.dt-head-nowrap,table.dataTable thead td.dt-head-nowrap,table.dataTable tfoot th.dt-head-nowrap,table.dataTable tfoot td.dt-head-nowrap{white-space:nowrap}table.dataTable tbody th.dt-body-left,table.dataTable tbody td.dt-body-left{text-align:left}table.dataTable tbody th.dt-body-center,table.dataTable tbody td.dt-body-center{text-align:center}table.dataTable tbody th.dt-body-right,table.dataTable tbody td.dt-body-right{text-align:right}table.dataTable tbody th.dt-body-justify,table.dataTable tbody td.dt-body-justify{text-align:justify}table.dataTable tbody th.dt-body-nowrap,table.dataTable tbody td.dt-body-nowrap{white-space:nowrap}/*! Bootstrap 5 integration for DataTables
+ *
+ * ©2020 SpryMedia Ltd, all rights reserved.
+ * License: MIT overflow-x: /license/mit
+ */table.dataTable{clear:both;margin-top:6px !important;margin-bottom:6px !important;max-width:none !important;border-collapse:separate !important;border-spacing:0}table.dataTable td,table.dataTable th{-webkit-box-sizing:content-box;box-sizing:content-box}table.dataTable td.dataTables_empty,table.dataTable th.dataTables_empty{text-align:center}table.dataTable.nowrap th,table.dataTable.nowrap td{white-space:nowrap}table.dataTable.table-striped>tbody>tr:nth-of-type(2n+1)>*{box-shadow:none}table.dataTable>tbody>tr{background-color:transparent}table.dataTable>tbody>tr.selected>*{box-shadow:inset 0 0 0 9999px rgb(13, 110, 253);box-shadow:inset 0 0 0 9999px rgb(var(--dt-row-selected));color:rgb(255, 255, 255);color:rgb(var(--dt-row-selected-text))}table.dataTable>tbody>tr.selected a{color:rgb(9, 10, 11);color:rgb(var(--dt-row-selected-link))}table.dataTable.table-striped>tbody>tr:nth-of-type(2n+1)>*{box-shadow:inset 0 0 0 9999px rgba(var(--dt-row-stripe), 0.05)}table.dataTable.table-striped>tbody>tr:nth-of-type(2n+1).selected>*{box-shadow:inset 0 0 0 9999px rgba(13, 110, 253, 0.95);box-shadow:inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.95)}table.dataTable.table-hover>tbody>tr:hover>*{box-shadow:inset 0 0 0 9999px rgba(var(--dt-row-hover), 0.075)}table.dataTable.table-hover>tbody>tr.selected:hover>*{box-shadow:inset 0 0 0 9999px rgba(13, 110, 253, 0.975);box-shadow:inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.975)}div.dataTables_wrapper div.dataTables_length label{font-weight:normal;text-align:left;white-space:nowrap}div.dataTables_wrapper div.dataTables_length select{width:auto;display:inline-block}div.dataTables_wrapper div.dataTables_filter{text-align:right}div.dataTables_wrapper div.dataTables_filter label{font-weight:normal;white-space:nowrap;text-align:left}div.dataTables_wrapper div.dataTables_filter input{margin-left:.5em;display:inline-block;width:auto}div.dataTables_wrapper div.dataTables_info{padding-top:.85em}div.dataTables_wrapper div.dataTables_paginate{margin:0;white-space:nowrap;text-align:right}div.dataTables_wrapper div.dataTables_paginate ul.pagination{margin:2px 0;white-space:nowrap;justify-content:flex-end}div.dataTables_wrapper div.dt-row{position:relative}div.dataTables_scrollHead table.dataTable{margin-bottom:0 !important}div.dataTables_scrollBody>table{border-top:none;margin-top:0 !important;margin-bottom:0 !important}div.dataTables_scrollBody>table>thead .sorting:before,div.dataTables_scrollBody>table>thead .sorting_asc:before,div.dataTables_scrollBody>table>thead .sorting_desc:before,div.dataTables_scrollBody>table>thead .sorting:after,div.dataTables_scrollBody>table>thead .sorting_asc:after,div.dataTables_scrollBody>table>thead .sorting_desc:after{display:none}div.dataTables_scrollBody>table>tbody tr:first-child th,div.dataTables_scrollBody>table>tbody tr:first-child td{border-top:none}div.dataTables_scrollFoot>.dataTables_scrollFootInner{box-sizing:content-box}div.dataTables_scrollFoot>.dataTables_scrollFootInner>table{margin-top:0 !important;border-top:none}@media screen and (max-width: 767px){div.dataTables_wrapper div.dataTables_length,div.dataTables_wrapper div.dataTables_filter,div.dataTables_wrapper div.dataTables_info,div.dataTables_wrapper div.dataTables_paginate{text-align:center}div.dataTables_wrapper div.dataTables_paginate ul.pagination{justify-content:center !important}}table.dataTable.table-sm>thead>tr>th:not(.sorting_disabled){padding-right:20px}table.dataTable.table-sm>thead>tr>th:not(.sorting_disabled):before,table.dataTable.table-sm>thead>tr>th:not(.sorting_disabled):after{right:5px}table.table-bordered.dataTable{border-right-width:0}table.table-bordered.dataTable thead tr:first-child th,table.table-bordered.dataTable thead tr:first-child td{border-top-width:1px}table.table-bordered.dataTable th,table.table-bordered.dataTable td{border-left-width:0}table.table-bordered.dataTable th:first-child,table.table-bordered.dataTable th:first-child,table.table-bordered.dataTable td:first-child,table.table-bordered.dataTable td:first-child{border-left-width:1px}table.table-bordered.dataTable th:last-child,table.table-bordered.dataTable th:last-child,table.table-bordered.dataTable td:last-child,table.table-bordered.dataTable td:last-child{border-right-width:1px}table.table-bordered.dataTable th,table.table-bordered.dataTable td{border-bottom-width:1px}div.dataTables_scrollHead table.table-bordered{border-bottom-width:0}div.table-responsive>div.dataTables_wrapper>div.row{margin:0}div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:first-child{padding-left:0}div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{padding-right:0}:root[data-bs-theme=dark]{--dt-row-hover: 255, 255, 255;--dt-row-stripe: 255, 255, 255;--dt-column-ordering: 255, 255, 255}
+
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #ccc;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    color: #798189;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #000;
+    background-color: #ffcc00;
+    border-color: #ccc;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px)
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+    text-align: left;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #fc0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.nav-link {text-transform: uppercase;}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 2px solid #ffcc00;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+    </style>
+    <script type="text/javascript">
+
+//        $(document).ready(function () {
+//          $('#dtOrderExample').DataTable({
+//            "order": [[ 3, "desc" ]]
+//          });
+//            $('.dataTables_length').addClass('bs-select');
+//        });
+
+        // Фиксим всплывающие подсказки при наведении
+        $(document).ready(function() {
+            $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+
+    </script>
+  </head>
+  <body class="skin-default-dark fixed-layout"data-bs-theme="dark">
+    <header class="topbar ">
+        <nav class="navbar top-navbar navbar-expand-md navbar-light">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/images/logo-white.svg" alt="homepage" style="width: 92px;" />
+                </a>
+            </div>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <ul class="navbar-nav my-lg-0 mr-2">
+                    <li class="nav-item dropdown">
+                        
+                        <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="usr-name">Моисеева Г.Н</span> &nbsp;<i class="fa fa-sign-out"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div style="height: 1px; color: #000;"></div>
+    <div class="page-wrapper">
+        <div class="container-fluid">
+            <div class="row page-titles">
+                <div class="col-md-12 align-self-center welcome-desc">
+                    <h5 class="card-title mt20"><b>СИСТЕМА МОНИТОРИНГА ОСТАТКОВ И ОБРАБОТКИ ЗАКАЗОВ</b></h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <!-- 
+                            Если нажали на кнопку отображения настроек 
+                        -->
+                        <div class="card-body">
+                            <nav>
+                              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <button class="nav-link" id="nav-options-tab" data-bs-toggle="tab" data-bs-target="#nav-options" type="button" role="tab" aria-controls="nav-options" aria-selected="true"><i class="fa fa-cog"></i> </button>
+                                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">ОБЩИЕ ОСТАТКИ</button>
+                                <button class="nav-link" id="nav-fillru-tab" data-bs-toggle="tab" data-bs-target="#nav-fillru" type="button" role="tab" aria-controls="nav-fillru" aria-selected="false">FILLRU</button>
+                                <button class="nav-link" id="nav-ozon-tab" data-bs-toggle="tab" data-bs-target="#nav-ozon" type="button" role="tab" aria-controls="nav-ozon" aria-selected="false">OZON</button>
+                                <button class="nav-link" id="nav-yandex-tab" data-bs-toggle="tab" data-bs-target="#nav-yandex" type="button" role="tab" aria-controls="nav-yandex" aria-selected="false">Яндекс Маркет</button>
+                                <button class="nav-link" id="nav-wb-tab" data-bs-toggle="tab" data-bs-target="#nav-wb" type="button" role="tab" aria-controls="nav-wb" aria-selected="false">WildBerries</button>
+                                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Отгрузки FBS <span class="badge badge-red">14</span></button>
+                              </div>
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <!-- 
+                                    Option's Tab
+                                -->
+                                <div class="tab-pane fade show" id="nav-options" role="tabpanel" aria-labelledby="nav-options-tab"><br/>
+                                    <h4>Общие настройки и Управление товарами</h4>
+                                    Здесь Вы можете управлять товаром (ипортировать, экспортировать, синхронизировать данные, изменять отображаемые сведения и многое другое.<br/>
+                                    Для начала Вам нужно предоставить перечень товара, Вы можете сделать это ипортировав Excel Файл, содержащий в себе: Наименование продукта, EAN13 штрихкод, его описание, Дополнительные сведения (Размеры, цвета, цена и пр.).<br/><br/>
+                                    <span style="color: #aaa">Скачать:</span> <a href="#">Образец_файла_для_импорта.xls</a><br/>
+                                    Ниже приведены товары/услуги уже имеющиеся в нашей базе данных, а так-же кликнув по наименованию Вы сможете сопоставить имена и штрихкоды.
+                                    <!-- <span class="float-start text-uppercase"><a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#productSync">Синхронизации товара</a></span> -->
+                                    <div class="table-responsive mt10">
+                                        <table class="table table-hover">
+                                            <!-- 
+                                                Нужно добавить опции, чтобы в зависимости от чекбоксов - отображались соответствующие данные (маски) 
+                                            -->
+                                            <thead class="table-dark">
+                                                <tr class="bold">
+                                                    <th class="prodnumb bold text-center" width="1"><b>#</b></th>
+                                                    <th class="prodname bold"><b>НАИМЕНОВАНИЕ </b></th>
+                                                    <th class="prodcode bold sm-hide" width="10">ШТРИХКОД</th>
+                                                    <th class="fillru bold" width="1"><b>FILLRU</b></th>
+                                                    <th class="ozon bold" width="1"><b>OZON</b></th>
+                                                    <th class="wb bold" width="1"><b>WB</b></th>
+                                                    <th class="sber bold dnd" width="1"><b>СБЕР</b></th>
+                                                    <th class="avito bold dnd" width="1"><b>AVITO</b></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="prodnumb text-center">1</td>
+                                                    <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productESync">Несмываемый бальзам для поврежденных волос Masil 9 Protein Perfume Silk Balm 180 Зеленый</a><span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></span></td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744060033" target="_blank">8809744060033</a></td>
+                                                    <td class="fillru text-success">✓</td>
+                                                    <td class="ozon text-success">✓</td>
+                                                    <td class="wb text-success"><span>✓</span></td>
+                                                    <td class="sber dnd"><span>-</span></td>
+                                                    <td class="avito dnd"><span>-</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="prodnumb text-center">2</td>
+                                                    <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productESync">Несмываемый протеиновый бальзам для волос Masil 9 Protein Perfume Silk Balm Sweet Love 180 Красный</a><span class="sm-show gray"><br/>EAN13: <a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></span></td>
+                                                    <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=8809744062129" target="_blank">8809744062129</a></td>
+                                                    <td class="fillru text-success">✓</td>
+                                                    <td class="ozon text-success">✓</td>
+                                                    <td class="wb text-danger"><span>-</span></td>
+                                                    <td class="sber dnd"><span>-</span></td>
+                                                    <td class="avito dnd"><span>-</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- 
+                                    Quantity's Tab 
+                                -->
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><br/>
+                                <h4 class="te">Мониторинг остатка товаров по всем направлениям</h4>  
+                                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFilters" aria-expanded="false" aria-controls="collapseFilters">Настройка фильтров и отображения</button>
+                                  <div class="collapse" id="collapseFilters"><br/>
+                                    <div class="card card-body bs">
+                                      <h4 class="text-uppercase text-center">Управление отображаемыми элементами</h4><br/>
+                                      <div class="row">
+                                            <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
+                                                <span class="text-uppercase bold text-center">Источник отображаемых имен</span>
+                                                <select class="form-select form-select-sm displayname" aria-label=".form-select-sm example">
+                                                  <option value="dn_fillru"selected>FILLRU (По умолчанию)</option>
+                                                  <option value="dn_ozon">OZON</option>
+                                                  <option value="dn_wb">Wildberries</option>
+                                                  <option value="dn_yam">Яндекс Маркет</option>
+                                                </select>
+                                                <div class="wrapper mt20">
+                                                    <span class="text-uppercase bold text-center">Визуальное отображения товара в системе</span>
+                                                    <a href="#" data-toggle="tooltip" data-bs-html="true" title="
+Если позиция зарегистрирована в системе, то при включении опции - 
+позиция визуально будет обозначена соответствующей иконкой.
+Иконка так-же является ссылкой на карточку товара (если это доступно)
+">
+                                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="fav_fillruSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">FILLRU</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="fav_ozonSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">OZON</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="fav_wbSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">WildBerries</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="fav_ymSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">Яндекс</span>
+                                                        </div>
+                                                    </div>
+                                                 
+                                                </div>
+                                                <div class="row">
+                                                    <div class="wrapper mt10">
+                                                        <span class="text-uppercase bold text-center">Дополнительные отображаемые атрибуты</span>
+                                                        <a href="#" data-toggle="tooltip" data-bs-html="true" title="
+По желанию выберите элементы, которые стоит отобразить или скрыть из таблицы остатков
+">
+                                                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+<!-- 
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="ozonSwitch" checked />
+                                                    <span class="form-check-label" for="flexSwitchCheckChecked">OZON &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#ozonSettings"></a></label>
+                                                </div>
+ -->
+                                                <div class="row">
+                                                    <div class="col-md-3 sm-hide">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="prodnumbSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault"># Строки</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="prodphotoSwitch" /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">Фото</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="form-check form-switch"> 
+                                                            <input class="form-check-input" type="checkbox" id="prodcodeSwitch" checked /> 
+                                                            <span class="form-check-label" for="flexSwitchCheckDefault">Штрихкод</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                                <span class="text-uppercase bold text-center">Источники остатков</span><a href="#" data-toggle="tooltip" data-bs-html="true" title="
+Укажите источники отображаемых остатков.
+
+Примечание: 
+Рядом имеется поле редактирования
+ - в него вы можете ввести авторизационные данные,
+   например API ключ. 
+ - Или изменить название склада.
+">
+                                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                                    </a>
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled />
+                                                    <span class="form-check-label" for="flexSwitchCheckCheckedDisabled">FILLRU &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#fillruSettings"></a></span>
+                                                 </div>
+
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="ozonSwitch" checked />
+                                                    <span class="form-check-label" for="flexSwitchCheckChecked">OZON &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#ozonSettings"></a></span>
+                                                </div>
+
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="wbSwitch" checked />
+                                                    <span class="form-check-label" for="flexSwitchCheckChecked">WB &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#wbSettings"></a></span></label>
+                                                </div>
+
+                                                <div class="form-check form-switch"> <input class="form-check-input" type="checkbox" id="yandexSwitch" /> 
+                                                    <span class="form-check-label"
+                                                  for="flexSwitchCheckDefault">Яндекс Маркет &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#yandexSettings"></a></span>
+                                                </div>
+
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled />
+                                                    <span class="form-check-label" for="flexSwitchCheckDisabled">Сбер Мега &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#sberSettings"></a></span>
+                                                </div>
+
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled />
+                                                    <span class="form-check-label" for="flexSwitchCheckDisabled">Авито &nbsp;<a class="fa fa-edit" type="button" data-bs-toggle="modal" data-bs-target="#avitoSettings"></a></span>
+                                                </div>
+                                            </div>
+
+                                            
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                                <!-- 
+                                    Temp B.AI Test Table
+                                -->
+
+<!-- <script type="text/javascript">
+var sortOrder = 1; // Переменная для отслеживания порядка сортировки
+
+function sortTable(column) {
+  var table, rows, switching, i, x, y, shouldSwitch;
+  table = document.getElementById("usrQt");
+  switching = true;
+  while (switching) {
+    switching = false;
+    rows = table.rows;
+    for (i = 1; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("td")[column].textContent.toLowerCase();
+      y = rows[i + 1].getElementsByTagName("td")[column].textContent.toLowerCase();
+      
+      if (column === 1) { // Сортировка по числовому значению остатков
+        x = parseFloat(x);
+        y = parseFloat(y);
+      }
+      
+      if (sortOrder === 1) {
+        if (x > y) {
+          shouldSwitch = true;
+          break;
+        }
+      } else {
+        if (x < y) {
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+    }
+  }
+
+  // Изменение порядка сортировки и добавление стрелочек
+  sortOrder *= -1;
+  updateArrow(column);
+}
+
+function updateArrow(column) {
+  var arrows = document.getElementsByClassName("arrow");
+  for (var i = 0; i < arrows.length; i++) {
+    arrows[i].innerHTML = "";
+  }
+  
+  var arrow = document.getElementById("arrow-" + column);
+  arrow.innerHTML = sortOrder === 1 ? "⬇️" : "⬆️";
+}
+</script> -->
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+var table = new DataTable('#usrQt', {
+
+    language: { 
+        //можно подгрузить так: url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/ru.json',
+        url: '//cdn.datatables.net/plug-ins/1.13.7/i18n/ru.json',
+
+        "processing": "Подождите...",
+        "search": "",
+        "lengthMenu": "_MENU_",
+        "info": "_START_ -_END_ / _TOTAL_",
+        "infoEmpty": "Записи с 0 до 0 из 0 записей",
+        "infoFiltered": "(отфильтровано из _MAX_ записей)",
+        "loadingRecords": "Загрузка записей...",
+        "zeroRecords": "Записи отсутствуют.",
+        "emptyTable": "В таблице отсутствуют данные",
+        "paginate": {
+            "first": "Первая",
+            "previous": "<",
+            "next": ">",
+            "last": "Последняя"
+        },
+        "aria": {
+            "sortAscending": ": активировать для сортировки столбца по возрастанию",
+            "sortDescending": ": активировать для сортировки столбца по убыванию"
+        },
+        "select": {
+            "rows": {
+                "_": "Выбрано записей: %d",
+                "1": "Выбрана одна запись"
+            },
+            "cells": {
+                "_": "Выбрано %d ячеек",
+                "1": "Выбрана 1 ячейка "
+            },
+            "columns": {
+                "1": "Выбран 1 столбец ",
+                "_": "Выбрано %d столбцов "
+            }
+        },
+        "searchBuilder": {
+            "conditions": {
+                "string": {
+                    "startsWith": "Начинается с",
+                    "contains": "Содержит",
+                    "empty": "Пусто",
+                    "endsWith": "Заканчивается на",
+                    "equals": "Равно",
+                    "not": "Не",
+                    "notEmpty": "Не пусто",
+                    "notContains": "Не содержит",
+                    "notStartsWith": "Не начинается на",
+                    "notEndsWith": "Не заканчивается на"
+                },
+                "date": {
+                    "after": "После",
+                    "before": "До",
+                    "between": "Между",
+                    "empty": "Пусто",
+                    "equals": "Равно",
+                    "not": "Не",
+                    "notBetween": "Не между",
+                    "notEmpty": "Не пусто"
+                },
+                "number": {
+                    "empty": "Пусто",
+                    "equals": "Равно",
+                    "gt": "Больше чем",
+                    "gte": "Больше, чем равно",
+                    "lt": "Меньше чем",
+                    "lte": "Меньше, чем равно",
+                    "not": "Не",
+                    "notEmpty": "Не пусто",
+                    "between": "Между",
+                    "notBetween": "Не между ними"
+                },
+                "array": {
+                    "equals": "Равно",
+                    "empty": "Пусто",
+                    "contains": "Содержит",
+                    "not": "Не равно",
+                    "notEmpty": "Не пусто",
+                    "without": "Без"
+                }
+            },
+            "data": "Данные",
+            "deleteTitle": "Удалить условие фильтрации",
+            "logicAnd": "И",
+            "logicOr": "Или",
+            "title": {
+                "0": "Конструктор поиска",
+                "_": "Конструктор поиска (%d)"
+            },
+            "value": "Значение",
+            "add": "Добавить условие",
+            "button": {
+                "0": "Конструктор поиска",
+                "_": "Конструктор поиска (%d)"
+            },
+            "clearAll": "Очистить всё",
+            "condition": "Условие",
+            "leftTitle": "Превосходные критерии",
+            "rightTitle": "Критерии отступа"
+        },
+        "searchPanes": {
+            "clearMessage": "Очистить всё",
+            "collapse": {
+                "0": "Панели поиска",
+                "_": "Панели поиска (%d)"
+            },
+            "count": "{total}",
+            "countFiltered": "{shown} ({total})",
+            "emptyPanes": "Нет панелей поиска",
+            "loadMessage": "Загрузка панелей поиска",
+            "title": "Фильтры активны - %d",
+            "showMessage": "Показать все",
+            "collapseMessage": "Скрыть все"
+        },
+        "buttons": {
+            "pdf": "PDF",
+            "print": "Печать",
+            "collection": "Коллекция <span class=\"ui-button-icon-primary ui-icon ui-icon-triangle-1-s\"><\/span>",
+            "colvis": "Видимость столбцов",
+            "colvisRestore": "Восстановить видимость",
+            "copy": "Копировать",
+            "copyTitle": "Скопировать в буфер обмена",
+            "csv": "CSV",
+            "excel": "Excel",
+            "pageLength": {
+                "-1": "Показать все строки",
+                "_": "Показать %d строк",
+                "1": "Показать 1 строку"
+            },
+            "removeState": "Удалить",
+            "renameState": "Переименовать",
+            "copySuccess": {
+                "1": "Строка скопирована в буфер обмена",
+                "_": "Скопировано %d строк в буфер обмена"
+            },
+            "createState": "Создать состояние",
+            "removeAllStates": "Удалить все состояния",
+            "savedStates": "Сохраненные состояния",
+            "stateRestore": "Состояние %d",
+            "updateState": "Обновить",
+            "copyKeys": "Нажмите ctrl  или u2318 + C, чтобы скопировать данные таблицы в буфер обмена.  Для отмены, щелкните по сообщению или нажмите escape."
+        },
+        "decimal": ".",
+        "infoThousands": ",",
+        "autoFill": {
+            "cancel": "Отменить",
+            "fill": "Заполнить все ячейки <i>%d<i><\/i><\/i>",
+            "fillHorizontal": "Заполнить ячейки по горизонтали",
+            "fillVertical": "Заполнить ячейки по вертикали",
+            "info": "Информация"
+        },
+        "datetime": {
+            "previous": "Предыдущий",
+            "next": "Следующий",
+            "hours": "Часы",
+            "minutes": "Минуты",
+            "seconds": "Секунды",
+            "unknown": "Неизвестный",
+            "amPm": [
+                "AM",
+                "PM"
+            ],
+            "months": {
+                "0": "Январь",
+                "1": "Февраль",
+                "10": "Ноябрь",
+                "11": "Декабрь",
+                "2": "Март",
+                "3": "Апрель",
+                "4": "Май",
+                "5": "Июнь",
+                "6": "Июль",
+                "7": "Август",
+                "8": "Сентябрь",
+                "9": "Октябрь"
+            },
+            "weekdays": [
+                "Вс",
+                "Пн",
+                "Вт",
+                "Ср",
+                "Чт",
+                "Пт",
+                "Сб"
+            ]
+        },
+        "editor": {
+            "close": "Закрыть",
+            "create": {
+                "button": "Новый",
+                "title": "Создать новую запись",
+                "submit": "Создать"
+            },
+            "edit": {
+                "button": "Изменить",
+                "title": "Изменить запись",
+                "submit": "Изменить"
+            },
+            "remove": {
+                "button": "Удалить",
+                "title": "Удалить",
+                "submit": "Удалить",
+                "confirm": {
+                    "_": "Вы точно хотите удалить %d строк?",
+                    "1": "Вы точно хотите удалить 1 строку?"
+                }
+            },
+            "multi": {
+                "restore": "Отменить изменения",
+                "title": "Несколько значений",
+                "info": "Выбранные элементы содержат разные значения для этого входа. Чтобы отредактировать и установить для всех элементов этого ввода одинаковое значение, нажмите или коснитесь здесь, в противном случае они сохранят свои индивидуальные значения.",
+                "noMulti": "Это поле должно редактироваться отдельно, а не как часть группы"
+            },
+            "error": {
+                "system": "Возникла системная ошибка (<a target=\"\\\" rel=\"nofollow\" href=\"\\\">Подробнее<\/a>)."
+            }
+        },
+        "searchPlaceholder": "Введите запрос ...",
+        "stateRestore": {
+            "creationModal": {
+                "button": "Создать",
+                "search": "Поиск",
+                "columns": {
+                    "search": "Поиск по столбцам",
+                    "visible": "Видимость столбцов"
+                },
+                "name": "Имя:",
+                "order": "Сортировка",
+                "paging": "Страницы",
+                "scroller": "Позиция прокрутки",
+                "searchBuilder": "Редактор поиска",
+                "select": "Выделение",
+                "title": "Создать новое состояние",
+                "toggleLabel": "Включает:"
+            },
+            "removeJoiner": "и",
+            "removeSubmit": "Удалить",
+            "renameButton": "Переименовать",
+            "duplicateError": "Состояние с таким именем уже существует.",
+            "emptyError": "Имя не может быть пустым.",
+            "emptyStates": "Нет сохраненных состояний",
+            "removeConfirm": "Вы уверены, что хотите удалить %s?",
+            "removeError": "Не удалось удалить состояние.",
+            "removeTitle": "Удалить состояние",
+            "renameLabel": "Новое имя для %s:",
+            "renameTitle": "Переименовать состояние"
+        },
+        "thousands": " "
+    },
+    lengthMenu: [[-1, 2, 10, 25, 50, 100], ["Все", 2, 10, 25, 50, 100]],
+    buttons:[
+            {
+                extend: 'createState',
+                config: {
+                    creationModal: true,
+                    toggle: {
+                        columns:{
+                            search: true,
+                            visible: true
+                        },
+                        length: true,
+                        order: true,
+                        paging: true,
+                        search: true,
+                    }
+                }
+            },
+            'savedStates'
+        ],
+});
+});
+
+</script>
+                                <!-- //-->  
+                                <!-- 
+                                    Echo Table Data For Quantity Tab
+                                -->
+                                <div class="table-responsive mt10">
+                                    <table class="table table-hover" id="usrQt" data-order='[[ 0, "asc" ]]' data-page-length='-1'style="min-width:100%"> <!-- Кол-во выводимых записей : -1 все -->
+                                        <!-- 
+                                            Нужно добавить опции, чтобы в зависимости от чекбоксов - отображать нужные данные 
+                                        -->
+                                        <thead class="table-dark" id="prodlist">
+                                            <tr class="bold">
+                                                <th class="prodnumb bold text-center usrQtTHprodnumb"  width="8px" style="max-width: 8px;"><b>#</b></th>
+                                                <th class="prodname bold orange" width="100"><b>НАИМЕНОВАНИЕ </b></th>
+                                                <th class="prodcode bold sm-hide" width="32px" style="max-width: 32px; width: 32px;"><b>ШТРИХКОД </b></th>
+                                                <th class="fillru bold" width="8px" style="max-width: 8px;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="128px"
+   height="32px"
+   viewBox="0 0 128 32"
+   version="1.1"
+   id="svg115"
+   inkscape:export-filename="1"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs112" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="m 10.162226,22.014126 c 1.147771,2.835818 0.346186,6.120312 2.622225,6.199329 0.820583,-0.0475 1.465399,-0.868352 0.758367,-3.578175 -0.406191,-1.347811 -0.942709,-2.679279 -1.766657,-3.974899 -0.07759,-0.13782 0.179916,-0.306051 0.676686,-0.496115 0.970309,-0.422943 1.94057,-0.845864 2.910861,-1.268815 1.076995,-0.412783 0.278488,-1.692985 -0.79071,-1.265121 -1.132468,0.493264 -2.237697,1.088514 -3.062636,1.723774 -0.817956,0.294178 -2.4120172,-5.214126 -2.7229022,-6.0608 -0.239101,-0.71508 2.1137332,-0.923695 3.4803362,-1.243923 1.378187,-0.405072 2.376696,-1.098268 3.125872,-1.980528 0.327643,-0.3857752 0.461865,-0.5401632 0.47551,-1.0677242 0.01304,-0.501317 -0.212044,-0.811306 -0.730351,-0.885438 -0.719399,-0.102907 -0.747683,0.162487 -1.245283,0.598344 -1.131512,0.991261 -2.439168,1.7126162 -3.9341162,2.2039982 -0.706007,0.227955 -1.556742,0.757395 -1.869136,0.16547 -0.283196,-0.661007 -0.266632,-1.1438762 -0.478247,-1.4302822 -0.648118,-0.87703 -1.2444056,-0.189413 -1.4374964,0.6539132 -0.2361504,1.031074 0.2112429,1.623146 0.1718085,1.859984 -0.073645,0.441334 -2.2146578,0.840063 -2.855469,3.484325 -0.2664059,1.341483 -0.1762793,2.009677 0.4856446,3.107864 1.1588049,1.92217 2.5917872,-0.551469 1.4675509,-1.312231 -2.4923713,-2.56537 1.167983,-5.028227 1.4453004,-3.287176 l 2.05152,5.082852 c 0.115485,0.26252 0.231026,0.525061 0.346534,0.787558 0.277273,0.461097 -0.633896,0.960987 -1.025,1.28403 -0.208979,0.172495 -0.248029,0.176482 -0.252162,0.477599 -0.0033,0.283038 0.129696,0.46431 0.397634,0.545996 0.27653,0.08419 0.274289,0.03241 0.485712,-0.129249 0.194228,-0.148564 0.388524,-0.297151 0.582797,-0.445693 0.343191,-0.24719 0.5776522,-0.180514 0.6858072,0.251133 z m 15.44686,-4.803765 h 0.01553 c 0.09177,1.598805 -0.353644,4.987129 1.708824,5.343477 2.317418,0.40044 3.784487,-3.116007 4.522721,-4.900385 -0.179636,1.330375 -0.403061,3.084479 0.239855,4.052303 0.678766,1.021896 2.251376,0.637069 3.107573,0.01824 1.75405,-1.267832 3.324979,-4.389495 3.795263,-5.380652 0.448439,-0.945176 0.935458,-2.159956 0.265562,-1.695442 -0.37357,0.25905 -1.093316,1.736108 -2.014361,3.203348 -0.645358,1.02802 -1.472344,2.04601 -2.010419,2.602829 -0.960221,0.99365 -1.113572,0.370774 -1.033859,-0.498279 0.141976,-1.548384 0.09785,-3.021127 0.251837,-4.574988 0.05483,-0.554116 0.07048,-1.220137 0.314114,-1.718272 l 0.918778,-1.633707 c 0.339895,-0.656516 0.661039,-1.43505 0.920868,-2.1276372 0.806134,-2.148722 1.593743,-4.667119 0.911687,-6.046157 -0.619394,-0.794116 -1.490589,-0.811736 -2.14578,-0.271362 -1.870014,1.160322 -2.344289,6.360188 -3.03087,10.2455062 l -0.121215,0.923912 c -0.652918,1.990967 -1.592026,4.025749 -2.829451,5.73235 -0.957455,1.320455 -1.240531,-0.127133 -1.281426,-1.158293 -0.07038,-1.573222 -0.131883,-2.943162 -0.2022,-4.516361 -0.02485,-0.556346 0.07735,-0.937967 0.247273,-1.465841 l 0.53777,-1.54915 c 0.242468,-0.698402 0.388783,-1.228259 0.546933,-1.9509562 0.490588,-2.241957 1.008176,-4.961812 0.03747,-6.114367 -0.720848,-0.856179 -1.591343,-0.590227 -2.162502,0.03829 -1.572086,1.399509 -1.342716,6.6202702 -1.534445,10.5737162 -0.822193,3.40506 -1.688825,6.147983 -2.538253,7.290364 -1.0802,1.63978 -1.612269,-5.576467 -1.58418,-6.24902 0.04301,-2.174505 0.0519,-4.548039 -1.30193,-3.10551 -1.040744,0.944498 -1.314603,2.045512 -1.08773,3.248702 0.311323,1.989968 0.622648,3.979878 0.933983,5.969846 0.25584,1.584423 0.924621,2.342832 2.097131,2.093884 0.816247,-0.180776 1.560463,-0.78529 2.160985,-2.233483 0.560882,-1.317887 0.982554,-2.715209 1.344325,-4.146913 z m 29.686489,2.78367 c 0.13265,-0.213141 0.267084,-0.423941 0.41232,-0.621163 0.420728,-0.57102 0.752288,-1.070561 1.505496,-1.174929 1.491242,-0.206646 2.376595,0.0029 1.17125,1.467699 -0.6553,0.871203 -1.382222,1.642214 -2.110771,2.41095 -0.249936,0.215781 -0.877299,1.501588 -1.234994,2.196847 -0.500281,0.972409 -0.81886,1.453085 -1.135069,2.131527 -0.262058,0.626537 0.272689,0.786903 1.093291,0.534093 1.054627,-0.248261 4.134933,-2.387829 5.23347,-3.361834 0.770485,-0.683085 1.418243,-0.529463 0.424224,0.38127 -1.647583,1.416084 -3.394579,2.819295 -5.478977,3.93663 -1.511534,0.61426 -2.570641,0.317029 -3.289576,-0.500554 -0.447257,-0.508637 -0.440813,-0.762519 -0.227379,-1.435422 0.289491,-0.912716 0.912139,-1.896656 1.675496,-3.02825 -1.047292,0.805634 -2.163501,1.567724 -3.398069,2.229512 -1.511509,0.614282 -3.045168,0.170854 -3.674042,-0.717887 -0.424455,-0.599799 -0.285214,-0.82178 -0.07184,-1.494685 0.658097,-2.074684 1.93493,-3.717686 2.997482,-5.527563 0.10202,-0.173726 0.362538,-0.634262 0.610781,-1.039004 0.398668,-0.650072 0.375586,-0.69803 1.079012,-0.934868 0.888819,-0.299403 1.945194,-0.428484 2.244096,-0.286836 0.586715,0.07132 0.42775,0.678669 -0.140154,1.422132 -0.369496,0.483659 -1.077972,1.101825 -1.538314,1.647506 -0.53914,0.639081 -0.912498,1.187387 -1.130824,1.595147 -0.44917,0.838781 -1.392547,2.468355 -1.636264,2.892617 -0.329014,0.572798 -0.324732,1.260311 0.02692,1.518178 0.197503,0.144892 0.572054,0.07219 1.029321,-0.0687 0.407587,-0.09596 1.185528,-0.392059 1.971505,-0.86957 1.065074,-0.647099 2.114495,-1.457158 2.847765,-2.077105 0.308692,-0.394741 0.515303,-0.797049 0.74382,-1.225735 z M 41.726877,16.151748 c 0.168952,-0.327468 0.138389,-0.411958 -0.128897,-0.461897 -1.079409,-0.550042 -1.973881,-1.220963 -2.01971,-2.446822 0.0024,-0.707455 0.220702,-1.641077 0.8821,-2.026007 1.329217,-0.773532 2.650057,1.409122 1.189305,3.253149 -0.296344,0.23673 -0.232026,0.40666 0.07691,0.531301 0.623287,0.124633 0.990217,0.07701 1.613505,0.201669 1.740026,0.165649 -0.4059,3.827097 -0.738661,5.0007 -0.165461,0.583492 -0.216163,1.082872 -0.323416,1.401759 -0.10213,0.671417 0.267517,0.713696 1.00223,0.269241 0.962841,-0.496799 3.549787,-3.336504 4.379083,-4.548047 0.581637,-0.849694 1.24736,-0.857857 0.504112,0.266908 -1.254598,1.77367 -2.608779,3.558931 -4.359612,5.148785 -1.317253,0.962786 -2.486899,1.022377 -3.31274,0.312874 -0.557338,-0.478875 -0.476152,-0.727923 -0.432431,-1.432565 0.08975,-1.446502 0.567487,-3.018214 1.668259,-5.471048 z M 34.797322,11.55963 c 0.04088,-0.261214 0.596452,-4.8352682 1.277192,-6.6100222 0.219958,-0.573486 0.478235,-0.912882 0.803307,-0.657836 0.413558,0.32449 0.0608,1.354876 -0.03929,1.78142 -0.258422,1.10141 -0.611658,2.37446 -0.71916,2.699404 -0.68451,2.0696432 -1.482512,3.8927422 -1.32209,2.7870342 z m -7.111415,0.186068 c 0.0024,-0.264378 -0.101229,-4.8708562 0.318676,-6.7247392 0.135665,-0.599053 0.342752,-0.971911 0.70094,-0.765985 0.455762,0.262046 0.254,1.332269 0.215962,1.768755 -0.09819,1.127024 -0.265774,2.437499 -0.325682,2.774488 -0.381551,2.1462852 -0.910573,4.0647822 -0.909896,2.9474812 z m -8.94215,-2.1064222 c -1.494281,-2.441661 1.565044,-4.017481 1.911756,-2.307313 0.389165,1.712661 -1.098056,3.5107952 -1.911756,2.307313"
+       style="fill:#fff;fill-opacity:1;fill-rule:evenodd;stroke:#ccc;stroke-width:0.16;stroke-dasharray:none"
+       id="path1374" />
+  </g>
+</svg>
+                                                </th>
+                                                <th class="ozon bold" width="8px" style="max-width: 8px;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="128px"
+   height="32px"
+   viewBox="0 0 128 32"
+   version="1.1"
+   id="svg115"
+   inkscape:export-filename="1.svg"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview117"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true" /><defs
+     id="defs112" /><g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       fill="#0069ff"
+       fill-rule="evenodd"
+       d="M 9.3539746,9.6756425 A 6.5780838,6.5780838 0 1 0 15.20886,15.548666 6.5698852,6.5698852 0 0 0 9.3539746,9.6756425 Z M 9.1408156,19.698662 A 3.5087834,3.5087834 0 1 1 12.153348,16.676689 3.507417,3.507417 0 0 1 9.1408156,19.698662 Z M 18.727208,9.935879 A 1.5348366,1.5348366 0 0 0 17.22914,11.78772 c 0.144342,0.723196 0.819839,1.217335 1.555705,1.217335 h 4.270364 l -6.645658,8.794629 a 0.43836502,0.43836502 0 0 0 0.34781,0.702949 h 10.424367 c 0.73537,0 1.411365,-0.494015 1.555705,-1.217336 a 1.5349607,1.5349607 0 0 0 -1.497447,-1.852089 h -5.203115 l 6.640566,-8.787796 A 0.44246421,0.44246421 0 0 0 28.326023,9.935879 Z m 41.655111,0.035402 a 1.5579411,1.5579411 0 0 0 -1.197337,1.540302 v 5.110077 l -8.280241,-6.589264 a 0.44035251,0.44035251 0 0 0 -0.714128,0.346071 v 10.551195 a 1.5578169,1.5578169 0 0 0 1.197337,1.540301 1.5329733,1.5329733 0 0 0 1.8624,-1.49931 v -5.154297 l 8.280362,6.589387 a 0.44022829,0.44022829 0 0 0 0.713881,-0.345947 V 11.470095 A 1.5329733,1.5329733 0 0 0 60.382319,9.971281 Z M 38.82281,12.71128 c 3.502324,0 6.119223,1.850847 6.119223,3.506423 0,1.655577 -2.616899,3.506423 -6.119223,3.506423 -3.502324,0 -6.119222,-1.850846 -6.119222,-3.506423 0,-1.655576 2.616898,-3.506423 6.119222,-3.506423 m 0,-3.0690521 c -5.069458,0 -9.178958,2.9439651 -9.178958,6.5754751 0,3.631511 4.1095,6.575475 9.178958,6.575475 5.069458,0 9.178835,-2.943964 9.178835,-6.575475 0,-3.63151 -4.109502,-6.5754751 -9.178835,-6.5754751 z"
+       id="path586"
+       style="stroke-width:0.124218" /></g>
+</svg>                                                 
+                                                </th>
+                                                <th class="wb bold" width="8px" style="max-width: 8px;">
+<svg
+   width="128px"
+   height="32px"
+   viewBox="0 0 128 32"
+   version="1.1"
+   id="svg115"
+   inkscape:export-filename="3.svg"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview117"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true" /><defs
+     id="defs112" /><g
+     id="g873"
+     transform="matrix(0.6333188,0,0,0.6333188,1.2021082,1.2548584)"><path
+       d="m 5.9791734,7.2352256 c 2.695187,-1.9438055 6.1136736,-2.8574999 9.4192006,-2.4871185 3.728791,0.3457222 7.239,2.3530277 9.514381,5.3127979 1.294311,11.10622 21.040091,8.045414 26.179601,0.366924 4.94602,3.302 7.91281,9.313298 7.27079,15.261307 -8.41739,5.327791 -6.83207,5.446889 -7.03788,12.971568 -1.10071,2.092007 -3.16449,3.679507 -5.5245,4.007414 -2.1626,0.366995 -4.39572,-0.363185 -6.06432,-1.753305 -2.42359,4.557924 -8.05738,7.076792 -13.0634,5.729322 -4.388485,-1.055017 -7.9127,-4.861418 -8.660694,-9.313403 C 17.242555,33.825038 8.7767714,29.239527 2.7723534,26.429934 0.92386838,23.801705 -0.01102862,20.542038 0.26417338,17.335218 0.54646638,13.341809 2.7123454,9.5423217 5.9791734,7.2352256"
+       style="fill:#7f1472;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="path857" /><path
+       d="m 31.269776,1.5237184 c 3.26319,-1.90849244 7.35189,-2.31418686 10.93258,-1.10768693 4.4697,1.43929803 7.99042,5.40448473 8.89,10.01179753 0.67031,3.150306 0.12351,6.519298 -1.46748,9.313298 -0.30343,-1.329902 -1.00553,-2.628089 -2.19781,-3.351318 -1.143,-0.6985 -2.52952,-0.769091 -3.8312,-0.797278 -2.794,0.007 -5.588,-0.0035 -8.382,0.007 0,3.552507 0,7.105015 0,10.661014 -1.40762,-0.338701 -2.76581,-0.85732 -4.03931,-1.541603 0.7408,-3.033889 1.4428,-6.081889 2.20479,-9.11232 -1.25938,-0.01757 -2.5153,-0.01757 -3.77108,0.0035 -0.4728,2.215479 -0.9597,4.423903 -1.4429,6.635785 -3.05502,-3.168015 -4.268716,-7.919896 -3.252611,-12.185015 0.825394,-3.5594924 3.175001,-6.7344923 6.357021,-8.5371866 z m 26.2255,0.8361186 c 2.6035,-0.9384242 5.48929,1.7497776 4.70609,4.4096867 -0.52561,2.617611 -4.10281,3.7606113 -6.03599,1.9084924 -2.17671,-1.7286111 -1.35121,-5.5949847 1.3299,-6.3181791 z m -18.58081,16.414679 c 1.84859,0.07059 3.7289,-0.165806 5.55978,0.127 1.89802,0.278694 2.03913,3.249118 0.28222,3.827709 -1.88732,0.560881 -3.89819,0.155187 -5.8384,0.271604 -0.007,-1.407619 -0.007,-2.818695 -0.004,-4.226313 z M 2.7723534,26.429934 c 1.534618,-2.984605 5.22111,-4.4698 8.4137136,-3.478529 0.864305,3.661903 1.711007,7.327229 2.589494,10.989133 1.344013,0.01757 2.688202,0.02117 4.032286,0 0.222108,-0.758508 0.441007,-1.520614 0.634999,-2.286106 0.455013,0.825606 1.104124,1.647472 1.033498,2.649502 0.04251,1.185192 -0.730179,2.180202 -1.463992,3.026798 -1.735702,1.619179 -4.751881,0.730179 -5.771409,-1.298222 -2.5894946,1.245305 -5.8983736,0.864305 -7.9939786,-1.150197 -2.321313,-2.074298 -2.917402,-5.715 -1.474611,-8.452379 z m 46.8384126,-0.50112 c 2.52938,-1.844887 6.14528,-2.049498 8.75238,-0.239678 2.08491,1.432102 3.37961,3.958096 3.22442,6.498096 -0.0953,2.585896 -1.68282,5.037702 -3.98642,6.208889 -1.91559,1.012401 -4.2792,1.093611 -6.27588,0.264583 -2.11321,-0.899583 -3.76421,-2.779995 -4.30749,-5.020098 3.1115,-0.910202 4.52617,-5.104694 2.59299,-7.711792"
+       style="fill:#ef1a8a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="path859" /><path
+       d="m 38.914466,26.249912 c -0.004,1.502904 -0.007,3.009194 0,4.515626 1.56641,0 3.13271,0.0036 4.699,0.0036 1.02659,0.01757 2.16959,-0.236502 2.80459,-1.114919 0.46221,-1.093611 0.19399,-2.733992 -1.083,-3.115098 -2.07789,-0.652604 -4.28628,-0.271604 -6.42059,-0.289207 z m 0,-7.475396 c -0.004,1.407618 -0.004,2.818694 0.004,4.226313 1.94021,-0.116417 3.95108,0.289277 5.8384,-0.271604 1.75691,-0.578591 1.6158,-3.549015 -0.28222,-3.827709 -1.83088,-0.292806 -3.71119,-0.05641 -5.55978,-0.127 z m -3.7006,-3.175 c 2.794,-0.01048 5.588,0 8.382,-0.007 1.30168,0.02819 2.6882,0.09878 3.8312,0.797278 1.19228,0.723229 1.89438,2.021416 2.19781,3.351318 0.0846,1.848591 -0.77262,3.704202 -2.44482,4.593202 0.89249,0.391583 1.7533,0.874888 2.43071,1.594485 1.93318,2.607098 0.51851,6.80159 -2.59299,7.711792 -3.89823,0.606707 -7.8704,0.169404 -11.80391,0.296298 0,-2.557674 0.003,-5.1187 0,-7.676374 0,-3.555999 0,-7.108507 0,-10.661014 z m -25.7387006,0 c 1.2699996,-0.007 2.5365076,-0.0035 3.8065076,-0.0035 0.889,4.162812 1.788583,8.32559 2.698785,12.481312 1.104194,-4.155722 2.144888,-8.332611 3.294909,-12.47782 1.46759,-0.007 2.938603,-0.01048 4.4063,0.0071 1.054699,4.247409 2.14129,8.487797 3.167799,12.738699 0.44091,-2.031894 0.88188,-4.063894 1.3159,-6.099386 0.4832,-2.211882 0.9701,-4.420306 1.4429,-6.635785 1.25578,-0.0211 2.5117,-0.0211 3.77108,-0.0035 -0.76199,3.030431 -1.46399,6.078431 -2.20479,9.11232 -0.7585,3.069202 -1.46039,6.14881 -2.22948,9.214484 -1.31233,0.01073 -2.62121,0.01073 -3.933508,0 -1.241813,-4.529701 -2.420126,-9.077007 -3.598298,-13.620784 -1.001994,3.778285 -1.996827,7.556499 -2.970424,11.341805 -0.193992,0.765492 -0.412891,1.527598 -0.634999,2.286106 -1.344084,0.02117 -2.688273,0.01757 -4.032286,0 -0.878487,-3.661904 -1.725189,-7.32723 -2.589494,-10.989133 -0.557213,-2.455298 -1.174609,-4.892993 -1.7109016,-7.351889"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
+       id="path861" /></g>
+   </svg>
+                                                </th>
+                                                <th class="yandex bold" width="8px" style="max-width: 8px;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   width="128px"
+   height="32px"
+   viewBox="0 0 128 32"
+   version="1.1"
+   id="svg115"
+   inkscape:export-filename="4.svg"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview117"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true" /><defs
+     id="defs112"><path
+       id="SVGID_1_"
+       d="m 183.8,232.3 c 22.2,0 40.1,-17.9 40.1,-40.1 0,-22.2 -17.9,-40.1 -40.1,-40.1 -22.2,0 -40.1,17.9 -40.1,40.1 -0.2,22.2 18,40.1 40.1,40.1 z" /></defs><style
+     type="text/css"
+     id="style905">
+    .st0{fill:#FED42B;}
+    .st1{fill:#FC3F1D;}
+    .st2{fill:#FFFFFF;}
+    .st3{clip-path:url(#SVGID_2_);}
+</style>
+<path
+     d="m 29.285949,20.359307 h 1.158968 l 1.619921,-6.018731 v 6.018731 h 1.303839 v -7.954734 h -1.791132 l -1.619921,5.83435 -1.619921,-5.83435 H 26.50706 v 7.954734 h 1.119458 v -6.018731 z m 9.535145,-3.937856 c 0,-1.4092 -0.698014,-1.936004 -2.146724,-1.936004 -0.908736,0 -1.619921,0.276572 -2.041364,0.526804 v 1.119458 c 0.355592,-0.276572 1.158968,-0.566314 1.870153,-0.566314 0.671674,0 0.948246,0.250231 0.948246,0.842885 v 0.316083 h -0.210721 c -2.080875,0 -3.029121,0.698014 -3.029121,1.870152 0,1.172138 0.698015,1.830643 1.764792,1.830643 0.803375,0 1.158968,-0.250232 1.4092,-0.526804 h 0.06585 c 0,0.144871 0.06585,0.355593 0.105361,0.460953 h 1.343349 c -0.03951,-0.460953 -0.06585,-0.948246 -0.06585,-1.409199 -0.01317,0 -0.01317,-2.528657 -0.01317,-2.528657 z m -1.369689,2.568167 c -0.171211,0.250232 -0.487293,0.460953 -0.987757,0.460953 -0.566314,0 -0.842885,-0.355592 -0.842885,-0.842886 0,-0.671674 0.460953,-0.908736 1.659431,-0.908736 h 0.210721 v 1.303839 h -0.03951 z m 3.727136,-4.39881 h -1.264329 v 7.427931 h 1.369689 v -2.317936 c 0.355593,0.526804 0.842886,0.777035 1.44871,0.777035 1.343349,0 2.252086,-1.053607 2.252086,-2.98961 0,-1.936003 -0.882397,-2.989611 -2.186235,-2.989611 -0.632165,0 -1.158968,0.276572 -1.554071,0.842886 0.01317,-0.01317 -0.06585,-0.750695 -0.06585,-0.750695 z m 1.172138,4.820253 c -0.698015,0 -1.093118,-0.592654 -1.093118,-1.896493 0,-1.343349 0.381933,-1.936003 1.158968,-1.936003 0.737525,0 1.119458,0.592654 1.119458,1.896493 0,1.343349 -0.381933,1.936003 -1.185308,1.936003 z m 6.887957,0.948246 h 1.55407 l -2.186235,-3.094971 1.936004,-2.673528 h -1.36969 l -1.936003,2.673528 v -2.673528 h -1.369689 v 5.768499 h 1.369689 v -2.818399 z m 6.124091,-0.381932 v -1.119458 c -0.421442,0.276572 -1.119457,0.526804 -1.791132,0.526804 -0.987757,0 -1.369689,-0.460953 -1.44871,-1.44871 h 3.266183 v -0.737525 c 0,-2.001854 -0.882396,-2.739379 -2.252086,-2.739379 -1.659431,0 -2.462807,1.264329 -2.462807,3.029121 0,2.001853 0.987757,2.98961 2.713039,2.98961 0.961417,-0.01317 1.593581,-0.223891 1.975513,-0.500463 z m -2.212575,-4.39881 c 0.671675,0 0.882396,0.566314 0.882396,1.264328 v 0.105361 h -1.909663 c 0.03951,-0.908736 0.395103,-1.369689 1.027267,-1.369689 z m 7.138189,0.10536 V 14.590808 H 55.71832 v 1.093117 h 1.619921 v 4.675382 h 1.369689 v -4.675382 z"
+     id="path907"
+     style="fill:#ffffff;stroke-width:0.131701" /><path
+     class="st0"
+     d="m 18.381115,21.768507 c 2.92376,0 5.281206,-2.357446 5.281206,-5.281206 0,-2.92376 -2.357446,-5.281206 -5.281206,-5.281206 -2.92376,0 -5.281206,2.357446 -5.281206,5.281206 -0.02634,2.92376 2.370616,5.281206 5.281206,5.281206 z"
+     id="path909"
+     style="stroke-width:0.131701" /><circle
+     class="st1"
+     cx="7.0943475"
+     cy="16.487301"
+     r="5.2812057"
+     id="circle911"
+     style="stroke-width:0.131701" /><path
+     class="st2"
+     d="M 7.8582128,14.169365 H 7.3314092 c -0.9087362,0 -1.3696893,0.460953 -1.3696893,1.158968 0,0.777035 0.3160821,1.158968 0.9877567,1.619921 l 0.5268036,0.381933 -1.5145603,2.357446 H 4.7237314 L 6.1724413,17.540908 C 5.3295555,16.948254 4.8686024,16.38194 4.8686024,15.394184 c 0,-1.237989 0.8428857,-2.080875 2.4628068,-2.080875 h 1.6199211 v 6.334814 H 7.8977231 v -5.491928 h -0.03951 z"
+     id="path913"
+     style="stroke-width:0.131701" /><g
+     id="g923"
+     transform="matrix(0.1317009,0,0,0.1317009,-5.8255107,-8.825612)">
+    <defs
+   id="defs916" />
+    <clipPath
+   id="SVGID_2_">
+        <use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use918" />
+    </clipPath>
+    <path
+   class="st3"
+   d="m 164.1,174.1 -35.3,46.2 9.4,10.7 26.2,-34.7 -2.7,19 14.7,5.1 17.9,-28.6 c -0.8,5.3 -2.1,17.6 9.6,21.4 18.4,5.6 34.5,-27.5 41.9,-44.3 l -10.7,-5.6 c -8.3,17.4 -21.1,36.6 -26.2,35.3 -5.1,-1.3 -0.5,-17.6 2.4,-28.1 v -0.3 l -16.3,-5.6 -19.5,31.8 2.7,-17.4 z"
+   clip-path="url(#SVGID_2_)"
+   id="path921" />
+</g></svg>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            
+                                            <tr>
+                                                <td class="prodnumb text-center">1</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Яблоко 🍎 - Яблоко - одно из самых популярных и полезных фруктов! Оно известно своим многообразием сортов и прекрасным сочетанием сладости и кислинки</a><br/>
+                                                <div id="fav_links">
+                                                    <span><a href="#" class="fav_fillru">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ozon">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_wb">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ym">&nbsp;</a></span>
+                                                    <span class="sm-barcode pull-right">4809744062129</span>
+                                                </div>
+                                                </td>
+                                                <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=4809744062129" target="_blank">4809744062129</a></td>
+                                                <td class="fillru text-success">10</td>
+                                                <td class="ozon">50</td>
+                                                <td class="wb"><span>11</span></td>
+                                                <td class="yandex"><span>5</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prodnumb text-center">2</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Банан 🍌 - самый веселый и энергичный фрукт! Его яркая желтая кожура и мягкое мякоть вызывают улыбку. Богатый источник витаминов и минералов, банан поддерживает здоровье сердца и уровень энергии</a><br/>
+                                                <div id="fav_links">
+                                                    <span><a href="#" class="fav_fillru">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ozon">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_wb">&nbsp;</a></span>
+                                                    <span class="sm-barcode pull-right">7809744062311</span>
+                                                </div>
+                                                </td>
+                                                 <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=7809744062311" target="_blank">7809744062311</a></td>
+                                                <td class="fillru text-success">13</td>
+                                                <td class="ozon">38</td>
+                                                <td class="wb"><span>46</span></td>
+                                                <td class="yandex"><span>-</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prodnumb text-center">3</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Абрикос 🍑 - прекрасный фрукт, который дарит солнечное настроение! Его сочная мякоть и нежный аромат привлекают внимание.</a><br/>
+                                                <div id="fav_links">
+                                                    <span><a href="#" class="fav_fillru">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ozon">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_wb">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ym">&nbsp;</a></span>
+                                                    <span class="sm-barcode pull-right">3809746212122</span>
+                                                </div>
+                                                </td>
+                                                <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=3809746212122" target="_blank">3809746212122</a></td>
+                                                <td class="fillru text-success">256</td>
+                                                <td class="ozon">0</td>
+                                                <td class="wb"><span>0</span></td>
+                                                <td class="yandex"><span>2</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="prodnumb text-center">4</td>
+                                                <td class="prodname"><a href="#" data-bs-toggle="modal" data-bs-target="#productView">Виноград 🍇 - природное сладкое удовольствие! Изобильная красота фиолетовых и зеленых гроздей, насыщенный вкус и полезные свойства делают его идеальным выбором для освежающего перекуса</a>
+                                                <br/>
+                                                <div id="fav_links">
+                                                    <span><a href="#" class="fav_fillru">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_ozon">&nbsp;</a></span>
+                                                    <span><a href="#" class="fav_wb">&nbsp;</a></span>
+                                                    <span class="sm-barcode pull-right">5809744062173</span>
+                                                </div>
+                                                </td>
+                                                 <td class="prodcode sm-hide"><a href="https://ya.ru/search/?text=5809744062173" target="_blank">5809744062173</a></td>
+                                                <td class="fillru text-success">117</td>
+                                                <td class="ozon">1100</td>
+                                                <td class="wb"><span>250</span></td>
+                                                <td class="yandex"><span>-</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+
+
+                                <script type="text/javascript">
+
+                                  window.addEventListener('load', () => {
+  // Получение всех необходимых элементов
+  const switches = [...document.querySelectorAll('#switches input')];
+  const columns = [...document.querySelectorAll('.columns .col')];
+  
+  // Добавление обработчика события change для каждого переключателя
+  switches.forEach((item) => item.addEventListener('change', toggleColumns));
+  
+  // Обработчик события change
+  function toggleColumns() {
+    // Обнуляем флаги
+    let flagOzon = false;
+    let flagWB = false;
+    let flagYaMarket = false;
+    
+    // Проверяем значения переключателей
+    switches.forEach((item) => {
+      if (item.id === 'ozonSwitch' && item.checked) {
+        flagOzon = true;
+      }
+      
+      if (item.id === 'wbSwitch' && item.checked) {
+        flagWB = true;
+      }
+      
+      if (item.id === 'yandexSwitch' && item.checked) {
+        flagYaMarket = true;
+      }
+    });
+    
+    // Определяем необходимое поведение
+    if (!flagOzon || !flagWB || !flagYaMarket) {
+      columns.forEach((item) => item.classList.remove('visible'));
+    } else {
+      columns.forEach((item) => item.classList.add('visible'));
+    }
+  }
+});
+                                </script>
+
+                              </div>
+                              <!-- QM'Tab end -->
+                              <div class="tab-pane fade" id="nav-fillru" role="tabpanel" aria-labelledby="nav-fillru-tab"><br/><h4>Fillru <a class="fa fa-edit" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fillruSettings"></a></h4></div>
+                              <div class="tab-pane fade" id="nav-ozon" role="tabpanel" aria-labelledby="nav-ozon-tab"><br/><h4>OZON</h4> TAB</div>
+                              <div class="tab-pane fade" id="nav-yandex" role="tabpanel" aria-labelledby="nav-yandex-tab"><br/><h4>Яндекс Маркет</h4>  TAB</div>
+                              <div class="tab-pane fade" id="nav-wb" role="tabpanel" aria-labelledby="nav-wb-tab"><br/><h4>WildBerries</h4> TAB</div>
+                              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><br/><h4>Отгрузки FBS</h4> <p>Доступно с опцией: <b>Сам Себе Fulfillment</b> - <a href="#">Подключить</a></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: block; height: 100px;"></div>
+        </div>
+    </div>
+    <!-- 
+        Mini SideBar'у можно изменить "чувствительность отображения" 
+    -->
+    <aside class="left-sidebar">
+        <div class="d-flex no-block nav-text-box align-items-center">
+            <span><img src="../assets/images/favicon.png" alt="Fillru Dashboard" style="width: 40px"></span>
+            <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i class="ti-menu" style="color: #aaa;"></i></a>
+        </div>
+        <div class="scroll-sidebar">
+            <nav class="sidebar-nav">
+                <ul id="sidebarnav">
+                    <li> <a class="waves-effect waves-dark" href="index.html" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Личный кабинет</span></a></li>
+                    <li> <a class="waves-effect waves-dark" href="profile-page.html" aria-expanded="false"><i class="fa fa-user-circle-o"></i><span class="hide-menu">Профиль</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!-- 
+        Footer - just footer ... 
+    -->
+    <footer class="footer">
+        Все права сохранены и защищены © <a href="#">«Fillru»</a>, Москва, 2023
+    </footer>
+    <!-- 
+        Modal Settings Frames 
+    -->
+    <!--
+        Main Settings Frame
+    -->
+    <div class="modal fade" id="mainSettings" tabindex="-1" aria-labelledby="mainSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="mainSettings">Общие настройки</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Из какого источника отображать наименование товара?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="oznname">OZON - Наименование</option>
+              <option value="oznart">OZON - Артикул</option>
+              <option value="yaname">Яндекс - Наименование</option>
+              <option value="yaart">Яндекс - Артикул</option>
+              <option value="wbname">WildBerries - Наименование</option>
+              <option value="wbart">WildBerries - Артикул</option>
+              <option value="nothingname">Не отображать</option>
+            </select>
+            <br/>
+            <span>Какой код отображать по умолчанию?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="ean13"selected>EAN13 (По умолчанию)</option>
+              <option value="oznbar">OZON - OZN1234567890</option>
+              <option value="oznsku">OZON - SKU </option>
+              <option value="yabar">Яндекс - YA1234567890</option>
+              <option value="yasku">Яндекс - SKU</option>
+              <option value="wbbar">WildBerries - WB1234567890</option>
+              <option value="wbsku">WildBerries - SKU</option>
+              <option value="nothingbar">Не отображать</option>
+            </select>
+            <br/>
+            <span>Каким образом сортировать остатки?</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="btm"selected>От большего к меньшему (По умолчанию)</option>
+              <option value="mtb">От меньшего к большему </option>
+              <option value="az">По наименованию А-я</option>
+              <option value="za">По наименованию Я-а</option>
+              <option value="price">По убыванию стоимости</option>
+              <option value="price">По возрастанию стоимости</option>
+            </select>
+            <br/>
+            <span>Стиль отображения заголовков</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="clmm"selected>Цветные иконки (По умолчанию)</option>
+              <option value="blmm">ЧБ иконки</option>
+              <option value="fnmm">Полное название</option>
+              <option value="snmm">Сокращенное название</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>                
+    <!-- 
+        Fillru Settings Frame 
+    -->
+    <div class="modal fade" id="fillruSettings" tabindex="-1" aria-labelledby="fillruSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="fillruSettings">Настройки отображения</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>Название склада</span>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option value="fillruname"selected>FILLRU (По умолчанию)</option>
+              <option value="fbs">FBS</option>
+              <option value="warehousename">WAREHOUSE</option>
+              <option value="clientname">Указать своё</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        OZON Settings Frame 
+    -->
+    <div class="modal fade" id="ozonSettings" tabindex="-1" aria-labelledby="ozonSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="ozonSettings">Настройки OZON</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>API ключ</span>
+            <div class="mb-3">
+              <span for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ OZON Seller'a </span>
+              <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="2" placeholder="OZON Seller API ключ"></textarea>
+              <br/>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOZONkeys" aria-expanded="false" aria-controls="collapseOZONkeys">Как получить API ключ?</button>
+                <div class="collapse" id="collapseOZONkeys"><br/>
+                  <div class="card card-body">
+                    Перейдите на сайт OZON и войдите в свой аккаунт. Откройте меню профиля, нажав на свое имя пользователя в правом верхнем углу. В выпадающем меню выберите «Мои приложения». На странице «Мои приложения» найдите раздел «API Keys» и нажмите на кнопку «Создать новый ключ». <pre><br/>(от 8 сентября 2023 года)</pre>
+                    <a href="https://www.youtube.com/watch?v=F4-YY3cVwLc" target="_blank">Посмотреть видеоинструкцию</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        WildBerriess Settings Frame 
+    -->
+    <div class="modal fade" id="wbSettings" tabindex="-1" aria-labelledby="wbSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="wbSettings">Настройки WildBerries</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <span>API ключ</span>
+            <div class="mb-3">
+              <span for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ WB Seller'a </span>
+              <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="2" placeholder="WB Seller API ключ"></textarea>
+              <br/>
+              <div class="row">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsWBkeys" aria-expanded="false" aria-controls="collapsWBkeys">Как получить API ключ?</button>
+                <div class="collapse" id="collapsWBkeys"><br/>
+                  <div class="card card-body">
+                      1) Зайдите в ваш Личный Кабинет на портале Поставщиков Wildberries.<br/>
+                      2) Пройдите в раздел Настройки (наверху справа, где указан поставщик), затем выберите раздел «Доступ к новому API» ...<br/>
+                      3) Нажмите «создать новый ключ». <pre><br/>(Видео-метод не проверялся)</pre>
+                    <a href="https://www.youtube.com/watch?v=sKN3iV9bXFk" target="_blank">Посмотреть видеоинструкцию</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        Yandex Settings Frame 
+    -->
+    <div class="modal fade" id="yandexSettings" tabindex="-1" aria-labelledby="yandexSettings" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="yandexSettings">Настройки Яндекс Партнера</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+            <div class="modal-body">
+                <span>API ключ</span>
+                <div class="mb-3">
+                    <span for="exampleFormControlTextarea1" class="form-label">Введите в поле ниже - API ключ Yandex Партнерa</span>
+                    <textarea class="form-control" id="exampleFormCzontrolTextarea1" rows="1" placeholder="Yandex Partner API ключ"></textarea><br/>
+                    <div class="row">
+                      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapsWBkeys" aria-expanded="false" aria-controls="collapsWBkeys">Как получить API ключ?</button>
+                        <div class="collapse" id="collapsWBkeys"><br/>
+                            <div class="card card-body">
+                            1) Перейдите на страницу Кабинета разработчика.<br/>
+                            2) Нажмите на кнопку Получить ключ и заполните поля: Имя ключа — имя, которое отображается на странице Ваши API-ключи. Его будете видеть только вы. ...<br/>
+                            3) Согласитесь с условиями использования API Поиска для сайта и нажмите Отправить.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+                <button type="button" class="btn btn-warning">Сохранить изменения</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        Product ID=productESync Modal Frame 
+    -->
+    <div class="modal fade" id="productESync" tabindex="-1" aria-labelledby="productESync" aria-hidden="true">
+      <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-uppercase" id="productESync">Сопостовление данных о продукте</h5>
+            <a type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </a>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <!-- 
+                    "SKU" ИНН:EAN13
+                -->
+                <h5>Fillru SKU (ИНН:EAN13) :</h5>
+                    <div class="input-group">
+                        <span class="input-group-text">622400183009:</span>
+                        <input class="form-control" id="ean13code" aria-label="With textarea" rows="1" maxlength="13" />
+                    </div>
+                    <button class="btn btn-dark mt10"><i class="fa fa-lock"></i> <i class="fa fa-copy"></i></button>
+                    <button class="btn btn-dark mt10"><i class="fa fa-unlock"></i> <i class="fa fa-copy"></i></button>
+
+                </div>
+                <!-- 
+                    // sku
+                    еще один костыль заменть textarea на input - для того чтобы пофиксить возможность изменения размера поля ввода
+                -->
+                <script type="text/javascript">
+                    // костылим text area по id=ean13codes
+                    ean13code.addEventListener('keydown', () => {
+                        ean13code.value = ean13code.value.replace(/\D/g, '')
+                    })
+                    ean13code.addEventListener('keyup', () => {
+                        ean13code.value = ean13code.value.replace(/\D/g, '')
+                    })
+                </script>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <h5>Наименование продукта в системе :</h5>
+                     <textarea class="form-control" id="whprodname" aria-label="With textarea" rows="3" maxlength="128" placeholder="Наименование продукта ( <= 128 символов )"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> OZON SKU</h5>
+                    <input class="form-control" id="oznsku" aria-label="With textarea" maxlength="24" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> WB SKU</h5>
+                    <input class="form-control" id="wbsku" aria-label="With textarea" maxlength="24" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-link" aria-hidden="true"></i> Яндекс SKU</h5>
+                    <input class="form-control" id="yasku" aria-label="With textarea" maxlength="24" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> OZON ШК</h5>
+                    <div class="input-group">
+                        <span class="input-group-text">OZN</span>
+                        <input class="form-control" id="ozncode" aria-label="With textarea" maxlength="9" />
+                    </div>
+                    <script type="text/javascript">
+                        // костылим text area по id=ozncode
+                        ozncode.addEventListener('keydown', () => {
+                            ozncode.value = ozncode.value.replace(/\D/g, '')
+                        })
+                        ozncode.addEventListener('keyup', () => {
+                            ozncode.value = ozncode.value.replace(/\D/g, '')
+                        })
+                    </script>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> WB ШК</h5>
+                    <input class="form-control" id="wbcode" aria-label="With textarea" maxlength="13">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-barcode" aria-hidden="true"></i> Яндекс ШК</h5>
+                        <input class="form-control" id="yacode" aria-label="With textarea" maxlength="13">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> OZON ИМЯ</h5>
+                        <textarea class="form-control" id="oznname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> WB ИМЯ</h5>
+                    <textarea class="form-control" id="wbname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-pencil" aria-hidden="true"></i> Яндекс ИМЯ</h5>
+                        <textarea class="form-control" id="yaname" aria-label="With textarea" rows="3" maxlength="256"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> OZON URL</h5>
+                        <input class="form-control" id="oznname" aria-label="With textarea" rows="1" maxlength="256"> /
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> WB URL</h5>
+                    <input class="form-control" id="wbname" aria-label="With textarea" rows="1" maxlength="256" />
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br/>
+                    <h5><i class="fa fa-globe" aria-hidden="true"></i> Яндекс URL</h5>
+                        <input class="form-control" id="yaname" aria-label="With textarea" rows="1" maxlength="256" />
+                </div>
+            </div>
+           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-upload" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-download" aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Закрыть</button>
+            <button type="button" class="btn btn-warning">Сохранить изменения</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
